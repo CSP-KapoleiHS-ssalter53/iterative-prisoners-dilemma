@@ -1,41 +1,41 @@
-team_name = 'Harambae'
-strategy_name = 'Passive Aggressive'
-strategy_description = 'Collude until some one betrayes then betray'
-    
-def move(my_history, their_history, my_score, their_score):
+import random
 
-    if len(their_history) > 1:
-    
-        if their_history[-1] == 'c':
-            return 'c'
-        elif their_history[-1] == 'b':
-            return 'b'
-    
-    return 'c'
+team_name = 'Team 12'
+strategy_name = 'BOONK GANG'
+strategy_description = 'By their history'
 
-def test_move(my_history, their_history, my_score, their_score, result):
-   
-    real_result = move(my_history, their_history, my_score, their_score)
-    if real_result == result:
-        return True
+import random
+
+
+def move(my_history, their_history, my_score, their_score):     
+    choice = random.choice(['a', 'm', 'o'])
+    if len(their_history) == 0:
+        return 'b'
     else:
-        print("move(" +
-            ", ".join(["'"+my_history+"'", "'"+their_history+"'",
-                       str(my_score), str(their_score)])+
-            ") returned " + "'" + real_result + "'" +
-            " and should have returned '" + result + "'")
-        return False
+        if choice == 'a':
+            return advantage(their_history)
+        if choice == 'm':
+            return mimic(their_history)
+        if choice == 'o':
+            return odds(their_history)
 
-if __name__ == '__main__':
-     
-    if test_move(my_history='',
-              their_history='', 
-              my_score=0,
-              their_score=0,
-              result='b'):
-         print 'Test passed'
-    test_move(my_history='bbb',
-              their_history='ccc', 
-              my_score=0, 
-              their_score=0,
-              result='b')             
+def odds(their_history):
+    choices = ['b','b','b','b','b','b','b','b','b','b','c','c','c','c','c','c','c','c','c''c']
+    if their_history[-1] == 'b':
+        return random.choice(choices[:15])
+    elif their_history[-1] == 'c':
+        return random.choice(choices[5:])
+    
+def advantage(their_history):
+    if their_history[-1] == 'b':
+        return 'b'
+    if their_history[-1] == 'c':
+        return 'b'
+    if their_history[-1:0] == 'ccc'or 'bcb':
+        return 'c'
+
+def mimic(my_history, their_history):
+    if my_history == 0:
+        return 'c'
+    else:
+        return their_history[-1]
