@@ -15,7 +15,7 @@ def move(my_history, their_history, my_score, their_score):
         if choice == 'a':
             return advantage(their_history)
         if choice == 'm':
-            return mimic(their_history)
+            return mimic(my_history, their_history)
         if choice == 'o':
             return odds(their_history)
 
