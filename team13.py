@@ -1,7 +1,8 @@
+import random 
+
 team_name = 'team13' # Only 10 chars displayed.
 strategy_name = 'win'
 strategy_description = 'beat other teams'
-import random 
     
 def move(my_history, their_history, my_score, their_score):
     if len(my_history)==0:
