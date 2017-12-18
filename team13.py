@@ -1,5 +1,4 @@
 import random 
-
 team_name = 'team13' # Only 10 chars displayed.
 strategy_name = 'win'
 strategy_description = 'beat other teams'
