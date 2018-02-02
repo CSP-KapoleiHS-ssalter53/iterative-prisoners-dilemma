@@ -34,11 +34,11 @@ import random
 import os.path              
     
 import team1, team3, team4
-import team5, team6, team7, team8, team9
+import team5, team6, team7, team8, team9, team1000
 import team10, team11, team12, team13, team14, team15
 
-modules = [team1, team3, team4, team5, team6, team7, team8, team9, team10, 
-team11, team12, team13, team14, team15]
+modules = [team1, team1000, team3, team4, team5, team6, team7, team8, team9, team10, 
+team11, team12, team13, team14, team15,]
 for module in modules:
     reload(module)
     print ('reloaded',module)
