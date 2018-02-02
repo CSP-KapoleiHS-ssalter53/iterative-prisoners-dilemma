@@ -1,37 +1,133 @@
 --------------------------------------------------------------------------------
 Section 0 - Line up
 --------------------------------------------------------------------------------
-Player 0 (P0): E0, Collude
-        Always collude.
-Player 1 (P1): E1, Betray
-        Always betray.
-Player 2 (P2): E2, Alternate
-        Collude, then alternate.
-Player 3 (P3): E3, Collude but retaliate
-        Collude first round. Collude, except in a round after getting 
-        a severe punishment.
+Player 0 (P0): Team 1, follow the leader
+        i see your b and raise you a c
+Player 1 (P1): team3, Conditions
+        Uses conditions to decide the next move.
+Player 2 (P2): Team 4, Mr.Mime
+        Betray the first and last 5 turns, copy the opponets last move for the r
+        est
+Player 3 (P3): TEAM 5, Winning Strategy
+        Random for first 5 turns, counter for 10, betray for the rest
+Player 4 (P4): TEAM 6, Free Points, You Can Trust Us
+        Mostly Collude
+Player 5 (P5): team 7, Hopscotch
+        Betray/collude alterantes every five rounds, betray/collude if in the la
+        st 5 rounds opponent colludes/betrays more than three times.
+Player 6 (P6): team8, APavlov
+        Copy opponents last move if opponent is cooperative, betray if oppontent
+         is mostly betraying
+Player 7 (P7): T9, ok
+        win or lose.
+Player 8 (P8): E10, Beating your code
+        Always win.
+Player 9 (P9): team11, SneakyBastartd+Crook/BullesyeAce+Armorer
+        Yeet
+Player 10 (P10): Team 12, BOONK GANG
+        By their history
+Player 11 (P11): team13, win
+        beat other teams
+Player 12 (P12): team 14, Counter and Guess Random
+        try to see their moves before they do it, and try to score as much point
+        s as possible with random guesses.
+Player 13 (P13): MK, Collude first 25 rounds unless betrayed. Betray 26th round forward.
+        Betray if betrayed. If I did not betrayed yet, starting the 11th round, 
+        I betray.
+Player 14 (P14): T16, Collude Then Betray
+        collude then betray.
 --------------------------------------------------------------------------------
 Section 1 - Player vs. Player
 --------------------------------------------------------------------------------
 Each column shows pts/round earned against each other player:
-             P0     P1     P2     P3
-vs. P0 :      0    100     50      0
-vs. P1 :   -500      0   -375   -375
-vs. P2 :   -250    -75      0   -201
-vs. P3 :      0    -75   -196      0
-TOTAL  :   -750    -50   -521   -576
+             P0     P1     P2     P3     P4     P5     P6     P7     P8     P9    P10    P11    P12    P13    P14
+vs. P0 :      0      0   -250   -250   -236     -9   -247   -250   -250      0   -270   -276   -266      0   -245
+vs. P1 :      0      0   -204   -241   -243     -5   -247   -200   -215      0   -222   -169   -175      0   -247
+vs. P2 :   -250   -210      0   -246   -247   -198   -253   -250   -263   -351   -248   -250   -260   -217   -250
+vs. P3 :   -246   -245   -246      0   -250     -7   -243   -246   -247    -75   -258   -218   -212   -138   -242
+vs. P4 :   -236   -243   -240   -239      0   -241   -248   -241   -234   -243   -241   -242   -235   -242   -237
+vs. P5 :     -5     -5     33     -7   -250      0     82     44     28     -8     28   -250     44     -6     91
+vs. P6 :   -250   -250   -247   -254   -248   -487      0   -249   -250   -411   -275   -379   -373   -367   -249
+vs. P7 :   -250   -200   -250   -250   -250   -252   -252      0   -250   -203   -233   -250   -232   -200   -250
+vs. P8 :   -250   -218   -150   -247   -246   -199   -250   -250      0   -191   -152   -250   -186   -160    -97
+vs. P9 :      0      0    -52    -65   -243     -4    -22   -198    -30      0    -62    -19    -34      0     -3
+vs. P10 :   -212   -222   -218   -231   -255   -207   -214   -217   -229   -220      0   -218   -224   -238   -199
+vs. P11 :   -123   -169   -250   -129   -254   -250    -69   -250   -250   -246   -256      0   -179   -193    -70
+vs. P12 :   -119   -180   -137   -134   -246   -249    -77   -139   -158   -213   -122   -141      0   -186    -64
+vs. P13 :      0      0   -188   -129   -242     -3    -82   -200    -75      0   -138    -94    -74      0    -74
+vs. P14 :   -250   -250   -250   -254   -257   -494   -249   -250   -356   -424   -286   -378   -381   -374      0
+TOTAL  :  -2191  -2192  -2649  -2676  -3467  -2605  -2371  -2896  -2779  -2585  -2735  -3134  -2787  -2321  -2136
 --------------------------------------------------------------------------------
 Section 2 - Leaderboard
 --------------------------------------------------------------------------------
 Average points per round:
 Team name (P#):  Score      with strategy name
-E1        (P1):        -13 points with Betray                                  
-E2        (P2):       -131 points with Alternate                               
-E3        (P3):       -144 points with Collude but retaliate                   
-E0        (P0):       -188 points with Collude                                 
+T16       (P14):       -143 points with Collude Then Betray                     
+Team 1    (P0):       -147 points with follow the leader                       
+team3     (P1):       -147 points with Conditions                              
+MK        (P13):       -155 points with Collude first 25 rounds unless betrayed.
+team8     (P6):       -159 points with APavlov                                 
+team11    (P9):       -173 points with SneakyBastartd+Crook/BullesyeAce+Armorer
+team 7    (P5):       -174 points with Hopscotch                               
+Team 4    (P2):       -177 points with Mr.Mime                                 
+TEAM 5    (P3):       -179 points with Winning Strategy                        
+Team 12   (P10):       -183 points with BOONK GANG                              
+E10       (P8):       -186 points with Beating your code                       
+team 14   (P12):       -186 points with Counter and Guess Random                
+T9        (P7):       -194 points with ok                                      
+team13    (P11):       -209 points with win                                     
+TEAM 6    (P4):       -232 points with Free Points, You Can Trust Us           
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-example0--------------------------------------------------------------------------------
+team1--------------------------------------------------------------------------------
+###
+# Each team's file must define four tokens:
+#     team_name: a string
+#     strategy_name: a string
+#     strategy_description: a string
+#     move: A function that returns 'c' or 'b'
+####
+
+team_name = 'Team 1' # Only 10 chars displayed.
+strategy_name = 'follow the leader'
+strategy_description = 'i see your b and raise you a c'
+    
+
+   
+def move(my_history, their_history, my_score, their_score):
+    ''' Arguments accepted: my_history, their_history are strings.
+    my_score, their_score are ints.'''
+       
+    if len(my_history) == 0:
+        return 'c'
+    elif 'b' in (their_history[-2:]):
+        return 'b'
+    else:
+        return 'c'--------------------------------------------------------------------------------
+team3--------------------------------------------------------------------------------
+team_name = 'team3'
+strategy_name = 'Conditions'
+strategy_description ='Uses conditions to decide the next move.'
+
+import random
+
+def move(my_history, their_history, my_score, their_score):
+
+    if my_history==0:
+        return 'b' #Betray First round
+        
+    for my_history in range(-5):
+        return random.choice['c','b']
+
+    if their_score<=my_score:
+        return 'c'
+        
+    if their_score>=my_score:
+        return 'b'
+            
+    if their_score==my_score:
+        return 'c' --------------------------------------------------------------------------------
+team4--------------------------------------------------------------------------------
 ####
 # Each team's file must define four tokens:
 #     team_name: a string
@@ -40,9 +136,9 @@ example0------------------------------------------------------------------------
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'E0'
-strategy_name = 'Collude'
-strategy_description = 'Always collude.'
+team_name = 'Team 4'
+strategy_name = 'Mr.Mime'
+strategy_description = 'Betray the first and last 5 turns, copy the opponets last move for the rest'
     
 def move(my_history, their_history, my_score, their_score):
     '''Make my move based on the history with this player.
@@ -55,10 +151,202 @@ def move(my_history, their_history, my_score, their_score):
     Returns 'c' or 'b' for collude or betray.
     '''
     
-    # This player always colludes.
-    return 'c'
+    if len(my_history) == 0: # look for length of my history = 0
+        return 'b' #First round
+    if their_history =='ccc':
+        return 'b'
+    elif len(my_history) >= 95:
+            return 'b'
+    else:
+        return their_history[-1]
+ 
+    
+     
+    # return 'c' first move
+   # if my_history'b' < their_history'b'
+           # return 'b'
+           # else return 'c'
+           # if >95 answers have been given return b (first)
+          --------------------------------------------------------------------------------
+team5--------------------------------------------------------------------------------
+team_name = 'TEAM 5'
+strategy_name = 'Winning Strategy'
+strategy_description = 'Random for first 5 turns, counter for 10, betray for the rest'
+
+import random
+def move(my_history, their_history, my_score, their_score):
+    if len(my_history) <= 5:
+        firstturns = random.choice('c''b')
+        return firstturns
+    bcount = 0
+    for letter in their_history[-5:-1]:
+        if letter == 'b':
+            bcount += 1
+            if bcount >= 2:
+                return 'b'
+    else:
+        return 'c'
+    if len(my_history) >= 10:
+        return 'b'--------------------------------------------------------------------------------
+team6--------------------------------------------------------------------------------
+team_name = 'TEAM 6'
+strategy_name = 'Free Points, You Can Trust Us'
+strategy_description = 'Mostly Collude'
+
+def move(my_history, their_history, my_score, their_score) :
+    if len(my_history) <= 5:
+        return 'c'
+    if their_history == 'b' :
+        return 'c'
+    if their_history == 'c' :
+        return 'c'
+    if their_history == ['c','c','c'] :
+        return 'b'
+    if their_score < my_score :
+        return 'c'
+    
+--------------------------------------------------------------------------------
+team7--------------------------------------------------------------------------------
+team_name = 'team 7'
+strategy_name = 'Hopscotch'
+strategy_description = 'Betray/collude alterantes every five rounds, betray/collude if in the last 5 rounds opponent colludes/betrays more than three times.' 
+
+import random
+def move(my_history,their_history, my_score, their_score):
+    if len(my_history)==0:
+        return 'b'
+
+
+    if len(my_history)==1:
+        return 'b'
+    if len(my_history)==2:
+        return 'b'
+    if len(my_history)==3: 
+        return 'c'
+        
+        
+    b=0
+    for move in their_history[-5:]:
+        if move =='b':
+            b += 1
+        if b>=3:
+            return 'b'
+        elif b<=2:
+                return 'c'
+    c=0
+    for move in their_history[-5:]:
+        if move =='c':
+            c += 1
+        if c>=3:
+            return 'c'
+        elif c<=2:
+            return 'b'
+    
+    
+    if len(my_history)==4:
+        return 'b'
+    if len(my_history)==9:
+        return 'c'
+    if len(my_history)==14:
+        return 'b'
+    if len(my_history)==19:
+        return 'c'
+    if len(my_history)==24:
+        return 'b'
+    if len(my_history)==29:
+        return 'c'
+    if len (my_history)==34:
+        return 'b'
+    if len(my_history)==39:
+        return 'c'
+    if len(my_history)==44:
+        return 'c'
+    if len(my_history)==49:
+        return 'b'
+    if len(my_history)==54:
+        return 'c'
+    if len (my_history)==59:
+        return 'b'
+    if len(my_history)==64:
+        return 'c'
+    if len(my_history)==69:
+        return 'b'
+    if len(my_history)==74:
+        return 'c'
+    if len (my_history)==79:
+        return 'b'
+    if len(my_history)==84:
+        return 'c'
+    if len (my_history)==89:
+        return 'b'
+    if len(my_history)==94:
+        return 'c'
+    if len (my_history)==99:
+        return 'b'
+    
+    if random.random()<0.2:
+        return 'b'--------------------------------------------------------------------------------
+team8--------------------------------------------------------------------------------
+team_name = 'team8'
+strategy_name = 'APavlov'
+strategy_description = 'Copy opponents last move if opponent is cooperative, betray if oppontent is mostly betraying'
+
+def move(my_history, their_history, my_score, their_score):
+    if len(my_history) == 0:
+        return 'c'
+    elif len(their_history) < 7:
+        return len(their_history[-1])
+    b=0
+    c=0
+    for move in their_history[-6:len(their_history)]:
+            if move == 'b':
+                b += 1
+            if move == 'c':
+                c += 1
+            if c >= 3:
+                return len(their_history[-1])
+            elif b >= 4:
+                return 'b'
+            else:
+                return 'b'
+--------------------------------------------------------------------------------
+team9--------------------------------------------------------------------------------
+####
+# Each team's file must define four tokens:
+#     team_name: a string
+#     strategy_name: a string
+#     strategy_description: a string
+#     move: A function that returns 'c' or 'b'
+####
+
+team_name = 'T9' 
+strategy_name = 'ok'
+strategy_description = 'win or lose.'
+    
+def move(my_history, their_history, my_score, their_score):
+    '''Make my move based on the history with this player.
+    
+    history: a string with one letter (c or b) per round that has been played with this opponent.
+    their_history: a string of the same length as history, possibly empty. 
+    The first round between these two players is my_history[0] and their_history[0]
+    The most recent round is my_history[-1] and their_history[-1]
+    
+    Returns 'c' or 'b' for collude or betray.
+    '''
+    if len(my_history)==0: # It's the first round; betray.
+        return 'b'
+    elif my_history[-1]=='b' and their_history[-1]=='c':
+        return 'c' # Collude if they were severely punished last time,
+    else:
+        return 'b' # otherwise betray.
+        
+    if 'c' in their_history or len(their_history)>100: 
+        return 'c'               # Collude.
+    else:
+        return 'b'         # but 90% of the time betray.
+    
     --------------------------------------------------------------------------------
-example1--------------------------------------------------------------------------------
+team10--------------------------------------------------------------------------------
 ####
 # Each team's file must define four tokens:
 #     team_name: a string
@@ -67,9 +355,10 @@ example1------------------------------------------------------------------------
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'E1'
-strategy_name = 'Betray'
-strategy_description = 'Always betray.'
+team_name = 'E10'
+strategy_name = 'Beating your code'
+strategy_description = 'Always win.'
+import random
     
 def move(my_history, their_history, my_score, their_score):
     '''Make my move based on the history with this player.
@@ -79,42 +368,142 @@ def move(my_history, their_history, my_score, their_score):
     The first round between these two players is my_history[0] and their_history[0]
     The most recent round is my_history[-1] and their_history[-1]
     
-    Returns 'c' or 'b' for collude or betray.
+    First three rounds random choice
+    Analyze last three rounds and make choice
     '''
     
-    #This example player always betrays.      
-    return 'b'
+    #First three rounds
+    if len(my_history) < 3:
+        choice = random.randint(0,1)
+        if choice == 0:
+            return 'b'
+        if choice == 1:
+            return 'c'
+    if len(my_history) % 7 == 0:
+        if my_score <= their_score:
+            return 'b'
+        else:
+            return 'c'
+    else:
+        if my_score == their_score:
+            return 'b'
+        if their_history[-7:] == 'bbbbbbb' and my_history[-7:] == 'bbbbbbb':
+            return 'c'
+        if my_history[-3:] == 'bcb' and their_history[-3:] == 'cbc':
+                    return 'b'
+        if their_history[-7:] == 'ccccccc' and my_history[-7:] == 'ccccccc':
+            return 'b'
+            
+        choice = random.randint(0,1)
+        if choice == 0:
+            return 'b'
+        if choice == 1:
+            return 'c'
+    
 --------------------------------------------------------------------------------
-example2--------------------------------------------------------------------------------
-####
-# Each team's file must define four tokens:
-#     team_name: a string
-#     strategy_name: a string
-#     strategy_description: a string
-#     move: A function that returns 'c' or 'b'
-####
+team11--------------------------------------------------------------------------------
+import random 
+team_name = 'team11'
+strategy_name = 'SneakyBastartd+Crook/BullesyeAce+Armorer'
+strategy_description = 'Yeet'
+def move(my_history, their_history, my_score, their_score): #Startegy name: The legend 28
+    if len(my_history) == 0:
+        return 'c' #Returns Collude on the first round
+    elif my_history[-1:101]=='c' and their_history[-1:101] =='b': #If they betray we betray the next round.
+        return 'b'
+    else:
+        return 'c'
+    if their_history == 'cc':
+        return 'b'
+    if my_history % 5 == 0: 
+        return random.choice(['b','c'])
+--------------------------------------------------------------------------------
+team12--------------------------------------------------------------------------------
+import random
 
-team_name = 'E2'
-strategy_name = 'Alternate'
-strategy_description = 'Collude, then alternate.'
+team_name = 'Team 12'
+strategy_name = 'BOONK GANG'
+strategy_description = 'By their history'
+
+import random
+
+
+def move(my_history, their_history, my_score, their_score):     
+    choice = random.choice(['a', 'm', 'o'])
+    if len(their_history) == 0:
+        return 'b'
+    else:
+        if choice == 'a':
+            return advantage(their_history)
+        if choice == 'm':
+            return mimic(my_history, their_history)
+        if choice == 'o':
+            return odds(their_history)
+
+def odds(their_history):
+    choices = ['b','b','b','b','b','b','b','b','b','b','c','c','c','c','c','c','c','c','c''c']
+    if their_history[-1] == 'b':
+        return random.choice(choices[:15])
+    elif their_history[-1] == 'c':
+        return random.choice(choices[5:])
     
-def move(my_history, their_history, my_score, their_score):
-    '''Make my move based on the history with this player.
-    
-    history: a string with one letter (c or b) per round that has been played with this opponent.
-    their_history: a string of the same length as history, possibly empty. 
-    The first round between these two players is my_history[0] and their_history[0]
-    The most recent round is my_history[-1] and their_history[-1]
-    
-    Returns 'c' or 'b' for collude or betray.
-    '''
-    # This player colludes on even numbered rounds (first round is round #0).
-    if len(my_history)%2 == 0:
+def advantage(their_history):
+    if their_history[-1] == 'b':
+        return 'b'
+    if their_history[-1] == 'c':
+        return 'b'
+    if their_history[-1:0] == 'ccc'or 'bcb':
+        return 'c'
+
+def mimic(my_history, their_history):
+    if my_history == 0:
         return 'c'
     else:
+        return their_history[-1]--------------------------------------------------------------------------------
+team13--------------------------------------------------------------------------------
+import random 
+team_name = 'team13' # Only 10 chars displayed.
+strategy_name = 'win'
+strategy_description = 'beat other teams'
+    
+def move(my_history, their_history, my_score, their_score):
+    if len(my_history)==0:
         return 'b'
-    --------------------------------------------------------------------------------
-example3--------------------------------------------------------------------------------
+    else:
+         recent_round_them = their_history[-1]
+         recent_round_me = my_history[-1]
+         for round in range(len(my_history)-1):
+            prior_round_them = their_history[round]
+            prior_round_me = my_history[round]
+        
+            if (prior_round_me == 'b') and \
+                    (prior_round_them == 'c'):
+                return random.choice(['c','b'])
+            if (prior_round_me == recent_round_them) and (prior_round_them == recent_round_me):
+                return 'b'
+                        
+--------------------------------------------------------------------------------
+team14--------------------------------------------------------------------------------
+import random
+
+team_name = 'team 14'
+strategy_name = 'Counter and Guess Random'
+strategy_description = 'try to see their moves before they do it, and try to score as much points as possible with random guesses.'
+
+def move(my_history, their_history, my_score, their_score):
+    count = 0
+    for letter in their_history[-10:-1]:
+        if letter == 'b':
+            count += 1
+    if ((count/10) >= 0.5) or ((count/10) >= 0.3):
+        return 'b'
+    else:
+        return random.choice(['b','c']) 
+    if 'b' in their_history[-80:] >= 0.5:
+        return 'b'
+    else:
+        return 'c'--------------------------------------------------------------------------------
+team15--------------------------------------------------------------------------------
 ####
 # Each team's file must define four tokens:
 #     team_name: a string
@@ -123,11 +512,49 @@ example3------------------------------------------------------------------------
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'E3'
-strategy_name = 'Collude but retaliate'
-strategy_description = '''\
-Collude first round. Collude, except in a round after getting 
-a severe punishment.'''
+team_name = 'MK' # Only 10 chars displayed.
+strategy_name = 'Collude first 25 rounds unless betrayed. Betray 26th round forward.'
+strategy_description = 'Betray if betrayed. If I did not betrayed yet, starting the 11th round, I betray.'
+
+import random    
+            
+def move(my_history, their_history, my_score, their_score):
+    '''Make move based off other player history
+    
+    history: a string with one letter (c or b) per round that has been played with this opponent.
+    their_history: a string of the same length as history, possibly empty. 
+    The first round between these two players is my_history[0] and their_history[0]
+    The most recent round is my_history[-1] and their_history[-1]
+    
+    Returns 'c' or 'b' for collude or betray. 
+    '''
+    
+    if len(my_history)== 0:
+        return 'c'
+    elif my_history[-1]=='c' and their_history[-1]=='b':
+        return 'b'
+    else:
+        return 'c' #Until 26th round    
+        
+    #If 26th round
+    if len(their_history)>25:
+        return 'b'
+        
+        
+    
+      --------------------------------------------------------------------------------
+team16--------------------------------------------------------------------------------
+####
+# Each team's file must define four tokens:
+#     team_name: a string
+#     strategy_name: a string
+#     strategy_description: a string
+#     move: A function that returns 'c' or 'b'
+####
+
+team_name = 'T16'
+strategy_name = 'Collude Then Betray'
+strategy_description = 'collude then betray.'
     
 def move(my_history, their_history, my_score, their_score):
     '''Make my move based on the history with this player.
@@ -139,146 +566,2228 @@ def move(my_history, their_history, my_score, their_score):
     
     Returns 'c' or 'b' for collude or betray.
     '''
+    
+    # I'll collude only if he colludes and betray if betrayed.
     if len(my_history)==0: # It's the first round; collude.
         return 'c'
     elif my_history[-1]=='c' and their_history[-1]=='b':
-        return 'b' # Betray if they were severely punished last time,
+        return 'b' # Betray if severely punished last time,
     else:
-        return 'c' # otherwise collude.--------------------------------------------------------------------------------
-Section 3 - Game Data for Team E0
+        return 'b' # otherwise collude
+    --------------------------------------------------------------------------------
+Section 3 - Game Data for Team Team 1
 --------------------------------------------------------------------------------
--500 pt/round: E0(P0) "Collude"
-100 pt/round: E1(P1) "Betray"
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-
-cccccccccccccccccccccccccccccccc
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-
---------------------------------------------------------------------------------
--250 pt/round: E0(P0) "Collude"
-50 pt/round: E2(P2) "Alternate"
-CcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCc
-CBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
-
-CcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCc
-CBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
-
-CcCcCcCcCcCcCcCcCcCcCc
-CBCBCBCBCBCBCBCBCBCBCB
-
---------------------------------------------------------------------------------
-0 pt/round: E0(P0) "Collude"
-0 pt/round: E3(P3) "Collude but retaliate"
+0 pt/round: Team 1(P0) "follow the leader"
+0 pt/round: team3(P1) "Conditions"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Section 3 - Game Data for Team E1
---------------------------------------------------------------------------------
-100 pt/round: E1(P1) "Betray"
--500 pt/round: E0(P0) "Collude"
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+-250 pt/round: Team 1(P0) "follow the leader"
+-250 pt/round: Team 4(P2) "Mr.Mime"
+cBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-cccccccccccccccccccccccccccccccc
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
--75 pt/round: E1(P1) "Betray"
--375 pt/round: E2(P2) "Alternate"
-BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
-cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb
+-246 pt/round: Team 1(P0) "follow the leader"
+-250 pt/round: TEAM 5(P3) "Winning Strategy"
+CcBbBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CBcbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
-cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb
-
-BbBbBbBbBbBb
-cbcbcbcbcbcb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
--75 pt/round: E1(P1) "Betray"
--375 pt/round: E3(P3) "Collude but retaliate"
-BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
-cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb
+-236 pt/round: Team 1(P0) "follow the leader"
+-236 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+CCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+CCCCCC                                                                          
 
-BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
-cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb
-
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Section 3 - Game Data for Team E2
---------------------------------------------------------------------------------
-50 pt/round: E2(P2) "Alternate"
--250 pt/round: E0(P0) "Collude"
-CBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
-CcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCc
-
-CBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
-CcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCc
-
-CBCBCBCBCBCBCBCBCBCBCB
-CcCcCcCcCcCcCcCcCcCcCc
+ccccccccccccccccccccccccccc
+                           
 
 --------------------------------------------------------------------------------
--375 pt/round: E2(P2) "Alternate"
--75 pt/round: E1(P1) "Betray"
-cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb
-BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
+-5 pt/round: Team 1(P0) "follow the leader"
+-9 pt/round: team 7(P5) "Hopscotch"
+cbbBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BbbccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb
-BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
-
-cbcbcbcbcbcb
-BbBbBbBbBbBb
-
---------------------------------------------------------------------------------
--196 pt/round: E2(P2) "Alternate"
--201 pt/round: E3(P3) "Collude but retaliate"
-CBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
-CcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
-
-cBcBcBcBcBcBcBcBcBcBcBcBcB
-BcBcBcBcBcBcBcBcBcBcBcBcBc
-
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Section 3 - Game Data for Team E3
---------------------------------------------------------------------------------
-0 pt/round: E3(P3) "Collude but retaliate"
-0 pt/round: E0(P0) "Collude"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCC
+CCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
--375 pt/round: E3(P3) "Collude but retaliate"
--75 pt/round: E1(P1) "Betray"
-cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb
-BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
+-250 pt/round: Team 1(P0) "follow the leader"
+-247 pt/round: team8(P6) "APavlov"
+Ccccccccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+C      Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb
-BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
--201 pt/round: E3(P3) "Collude but retaliate"
--196 pt/round: E2(P2) "Alternate"
-CcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
-CBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+-250 pt/round: Team 1(P0) "follow the leader"
+-250 pt/round: T9(P7) "ok"
+cBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-BcBcBcBcBcBcBcBcBcBcBcBcBc
-cBcBcBcBcBcBcBcBcBcBcBcBcB
+bbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: Team 1(P0) "follow the leader"
+-250 pt/round: E10(P8) "Beating your code"
+cbbBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+0 pt/round: Team 1(P0) "follow the leader"
+0 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-212 pt/round: Team 1(P0) "follow the leader"
+-270 pt/round: Team 12(P10) "BOONK GANG"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbBBCcBbbbBBcBbbbbbbbbBbbbbbbbbbbbbbBbbbbbbbbbbbbbbbbbB
+BbbbbbbbbbbbbbbbbbbbbbbbbbbccCBcbbbccBcbbbbbbbbcbbbbbbbbbbbbbcbbbbbbbbbbbbbbbbbc
+
+bbBbbbbbbBbbbBbbbbBbbbbbbbbBBcbbbbbbbBbbbbBBcBbbbbbbbBbbbbbbbbbbbbbbbbbbbbbbbBbb
+bbcbbbbbbcbbbcbbbbcbbbbbbbbccBbbbbbbbcbbbbccBcbbbbbbbcbbbbbbbbbbbbbbbbbbbbbbbcbb
+
+bbbb
+bbbb
+
+--------------------------------------------------------------------------------
+-123 pt/round: Team 1(P0) "follow the leader"
+-276 pt/round: team13(P11) "win"
+cbBCcBBCCCcBbBbBBcBbBBcbbBBCcbbBbbBbbbBBcbbBbBbBBcBbbbbBBcBbBBCCCCcBbbBbbbBbbbbB
+B cCBccCCCBcbcbccBcbccBbbccCBbbcbbcbbbccBbbcbcbccBcbbbbccBcbccCCCCBcbbcbbbcbbbbc
+
+BCCcbbBBCcBbBBcbBbBBcbBbBbbbbbBBcbBbBBCCcBbBBcbBbBbbbbbBbbbbBBcbBBcBbbbbbbbBBcBB
+cCCBbbccCBcbccBbcbccBbcbcbbbbbccBbcbccCCBcbccBbcbcbbbbbcbbbbccBbccBcbbbbbbbccBcc
+
+CcbbbBbBBCCcBBCCcBbBbBbbBBCcBbBBcbBb
+CBbbbcbccCCBccCCBcbcbcbbccCBcbccBbcb
+
+--------------------------------------------------------------------------------
+-119 pt/round: Team 1(P0) "follow the leader"
+-266 pt/round: team 14(P12) "Counter and Guess Random"
+cbBBcbbBBcBbbbBbBBCCcBbBBCcBBCcbbbbbbBbbbbbbBBCcBbbBbbBBcBBCCCCCcBbbbbBbbBbbbBBc
+BbccBbbccBcbbbcbccCCBcbccCBccCBbbbbbbcbbbbbbccCBcbbcbbccBccCCCCCBcbbbbcbbcbbbccB
+
+BbBbbbBbBbbbBBCcbBBCCCcbBBCcBbBBCcBbbBbbbBbBbbBbBbBBcBbbBBcBbbBBCcbbBBCCCCc
+cbcbbbcbcbbbccCBbccCCCBbccCBcbccCBcbbcbbbcbcbbcbcbccBcbbccBcbbccCBbbccCCCCB
+
+--------------------------------------------------------------------------------
+0 pt/round: Team 1(P0) "follow the leader"
+0 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-250 pt/round: Team 1(P0) "follow the leader"
+-245 pt/round: T16(P14) "Collude Then Betray"
+Ccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team team3
+--------------------------------------------------------------------------------
+0 pt/round: team3(P1) "Conditions"
+0 pt/round: Team 1(P0) "follow the leader"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-210 pt/round: team3(P1) "Conditions"
+-204 pt/round: Team 4(P2) "Mr.Mime"
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+
+cBcBcBcBcBcBcBcbbbbbbbbbbbbbb
+BcBcBcBcBcBcBcBbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-245 pt/round: team3(P1) "Conditions"
+-241 pt/round: TEAM 5(P3) "Winning Strategy"
+CCcBcBCcbBcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CCBcBcCBbcBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-243 pt/round: team3(P1) "Conditions"
+-243 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+CCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+CCCCCC                                                                          
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+                                                                                
+
+cccccccccccccccccccccccccccccc
+                              
+
+--------------------------------------------------------------------------------
+-5 pt/round: team3(P1) "Conditions"
+-5 pt/round: team 7(P5) "Hopscotch"
+cbbBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BbbcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-250 pt/round: team3(P1) "Conditions"
+-247 pt/round: team8(P6) "APavlov"
+Ccccccccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+C      Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-200 pt/round: team3(P1) "Conditions"
+-200 pt/round: T9(P7) "ok"
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+
+cBcBcBcBcBcBcBcBcBcBcBcBcBcB
+BcBcBcBcBcBcBcBcBcBcBcBcBcBc
+
+--------------------------------------------------------------------------------
+-218 pt/round: team3(P1) "Conditions"
+-215 pt/round: E10(P8) "Beating your code"
+CcbbBcBcbBcbbbBcbbBcBcbbBcBcBcbbBcBcbbBcBcBcbbBcBcbbbbbbBcBcbBcBcbBcBcBcbBcBcBcb
+CBbbcBcBbcBbbbcBbbcBcBbbcBcBcBbbcBcBbbcBcBcBbbcBcBbbbbbbcBcBbcBcBbcBcBcBbcBcBcBb
+
+bbbBcbBcbbbBcbbBcBcbbBcbbBcbBcBcBcbBcBcBcbBcbBcbBcbbBcBcbbbbBcBcbBcBcbbbbBcBcbBc
+bbbcBbcBbbbcBbbcBcBbbcBbbcBbcBcBcBbcBcBcBbcBbcBbcBbbcBcBbbbbcBcBbcBcBbbbbcBcBbcB
+
+bBcBcbBcBcbbBcbBcBcbBcBcbbBcBcbbbbBcBc
+bcBcBbcBcBbbcBbcBcBbcBcBbbcBcBbbbbcBcB
+
+--------------------------------------------------------------------------------
+0 pt/round: team3(P1) "Conditions"
+0 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-222 pt/round: team3(P1) "Conditions"
+-222 pt/round: Team 12(P10) "BOONK GANG"
+cbbBcBcbbbbbbbBcbbbBcBcBcBcBcBcbbbbbbbbBcBcbbbbbbbbBcBcbbbbbBcBcBcbbBcbbbbbbbBcb
+BbbcBcBbbbbbbbcBbbbcBcBcBcBcBcBbbbbbbbbcBcBbbbbbbbbcBcBbbbbbcBcBcB bcBbbbbbbbcBb
+
+bbbBcbBcbbbbBcbbBcbBcbbbbbbbbbbbbBcbbbBcBcbbBcBCCcBcBcbbbbBcbbBcBcBcBC
+bbbcBbcBbbbbcBbbcBbcBbbbbbbbbbbbbcBbbbcBcBbbcBcCCBcBcBbbbbcBbbcBcBcBcC
+
+--------------------------------------------------------------------------------
+-169 pt/round: team3(P1) "Conditions"
+-169 pt/round: team13(P11) "win"
+cbbbbBcBcBcbbbbbbbbbbBcbbbBCCCCCcbbBcBCcbBCCCcBcbBcbbbBcbBCcbBcbBcbBcBCcBcBCcbbB
+B bbbcBcBcBbbbbbbbbbbcBbbbcCCCCCBbbcBcCBbcCCCBcBbcBbbbcBbcCBbcBbcBbcBcCBcBcCBbbc
+
+cbbbBCcBcBCcBCcBcbBcBCCCCCcBCCCCcBCCC
+BbbbcCBcBcCBcCBcBbcBcCCCCCBcCCCCBcCCC
+
+--------------------------------------------------------------------------------
+-180 pt/round: team3(P1) "Conditions"
+-175 pt/round: team 14(P12) "Counter and Guess Random"
+cbBcbbBCCcbbBCcBCCcBcBcBcBcBCcbBCCCcBcBcBcbBcBcbBcBcbBCcBcBCcBCcBcbbBcBcBCcbbbBC
+BbcBbbcCCBbbcCBcCCBcBcBcBcBcCBbcCCCBcBcBcBbcBcBbcBcBbcCBcBcCBcCBcBbbcBcBcCBbbbcC
+
+cBcBCcbbbbBCcBCcBcBcBcbbBCCCCCcBCcbbBcbBCcbbbbBcBcBcbBcbbBcBcBc
+BcBcCBbbbbcCBcCBcBcBcBbbcCCCCCBcCBbbcBbcCBbbbbcBcBcBbcBbbcBcBcB
+
+--------------------------------------------------------------------------------
+0 pt/round: team3(P1) "Conditions"
+0 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-250 pt/round: team3(P1) "Conditions"
+-247 pt/round: T16(P14) "Collude Then Betray"
+Ccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbb
+bbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team Team 4
+--------------------------------------------------------------------------------
+-250 pt/round: Team 4(P2) "Mr.Mime"
+-250 pt/round: Team 1(P0) "follow the leader"
+Bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-204 pt/round: Team 4(P2) "Mr.Mime"
+-210 pt/round: team3(P1) "Conditions"
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+
+BcBcBcBcBcBcBcBbbbbbbbbbbbbbb
+cBcBcBcBcBcBcBcbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-246 pt/round: Team 4(P2) "Mr.Mime"
+-246 pt/round: TEAM 5(P3) "Winning Strategy"
+bBCcBcbBcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bcCBcBbcBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-240 pt/round: Team 4(P2) "Mr.Mime"
+-247 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+BCCBCCc                                                                         
+cCCcCC                                                                          
+
+               bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                                                                              
+
+--------------------------------------------------------------------------------
+33 pt/round: Team 4(P2) "Mr.Mime"
+-198 pt/round: team 7(P5) "Hopscotch"
+bbbBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+CCCCCCCCCCCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-247 pt/round: Team 4(P2) "Mr.Mime"
+-253 pt/round: team8(P6) "APavlov"
+Bc      bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+c      bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: Team 4(P2) "Mr.Mime"
+-250 pt/round: T9(P7) "ok"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-150 pt/round: Team 4(P2) "Mr.Mime"
+-263 pt/round: E10(P8) "Beating your code"
+BCCbbbBcbbBcbbbbbbbBcbBCCcbbbbbbBCcbbbBCcbbBcbBCcbBcbbbbbbbBcbBcBCCcBcbbBCCcBcbb
+cCCbbbcBbbcBbbbbbbbcBbcCCBbbbbbbcCBbbbcCBbbcBbcCBbcBbbbbbbbcBbcBcCCBcBbbcCCBcBbb
+
+BCCCcBCcbBCcbBcBbBbBBbbBbbBbbBBbbBbbBBBbbbBbBbbBbbBBbbbBbBbbbBbbbBbbbBbbBBbbBBbB
+cCCCBcCBbcCBbcBcbcbccbbcbbcbbccbbcbbcccbbbcbcbbcbbccbbbcbcbbbcbbbcbbbcbbccbbccbc
+
+bbbBbbBbbBB
+bbbcbbcbbcc
+
+--------------------------------------------------------------------------------
+-52 pt/round: Team 4(P2) "Mr.Mime"
+-351 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+
+BcBcBcBcBcBcBcBbBbBbBbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cBcBcBcBcBcBcBcbcbcbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-218 pt/round: Team 4(P2) "Mr.Mime"
+-248 pt/round: Team 12(P10) "BOONK GANG"
+bbbbbBcBcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbBCCCcBcBcBcbbbbbb
+bbbbbcBcBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcCCCBcBcBcBbbbbbb
+
+bbbbbbBCCcBcBcBbbbbbbbBbbbbBbbbbbbbbbbBbbbbbbbbbbbbbBbbbbBbbB
+bbbbbbcCCBcBcBcbbbbbbbcbbbbcbbbbbbbbbbcbbbbbbbbbbbbbcbbbbcbbc
+
+--------------------------------------------------------------------------------
+-250 pt/round: Team 4(P2) "Mr.Mime"
+-250 pt/round: team13(P11) "win"
+bb   bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+b   bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-137 pt/round: Team 4(P2) "Mr.Mime"
+-260 pt/round: team 14(P12) "Counter and Guess Random"
+BcbbBCCCCcbbbbbBCcbbBcBCcBCCCcbBcBCcbbbBCcBcBCCcBcbBcbBCcbbbbbbbBCCcbbBcbBcbBcbB
+cBbbcCCCCBbbbbbcCBbbcBcCBcCCCBbcBcCBbbbcCBcBcCCBcBbcBbcCBbbbbbbbcCCBbbcBbcBbcBbc
+
+CcBcBCcbBCcBCcbbBbbBBbBBBbBbbBBBbBBbBBbbbbbBBBbbBBBbBbBbbbbbBbbbBBbbBBbbBbbBbbBb
+CBcBcCBbcCBcCBbbcbbccbcccbcbbcccbccbccbbbbbcccbbcccbcbcbbbbbcbbbccbbccbbcbbcbbcb
+
+bBbbbBbBBbBbBbb
+bcbbbcbccbcbcbb
+
+--------------------------------------------------------------------------------
+-188 pt/round: Team 4(P2) "Mr.Mime"
+-217 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+
+BcBcBcBcBcBcBcBbBbBbBbB
+cBcBcBcBcBcBcBcbcbcbcbc
+
+--------------------------------------------------------------------------------
+-250 pt/round: Team 4(P2) "Mr.Mime"
+-250 pt/round: T16(P14) "Collude Then Betray"
+Bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team TEAM 5
+--------------------------------------------------------------------------------
+-250 pt/round: TEAM 5(P3) "Winning Strategy"
+-246 pt/round: Team 1(P0) "follow the leader"
+CBcbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CcBbBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-241 pt/round: TEAM 5(P3) "Winning Strategy"
+-245 pt/round: team3(P1) "Conditions"
+CCBcBcCBbcBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CCcBcBCcbBcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-246 pt/round: TEAM 5(P3) "Winning Strategy"
+-246 pt/round: Team 4(P2) "Mr.Mime"
+bcCBcBbcBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bBCcBcbBcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-239 pt/round: TEAM 5(P3) "Winning Strategy"
+-250 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+BCBCCBcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cCcCCc                                                                          
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+                                                                            
+
+--------------------------------------------------------------------------------
+-7 pt/round: TEAM 5(P3) "Winning Strategy"
+-7 pt/round: team 7(P5) "Hopscotch"
+ccbBCCBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BBbcCCcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCC
+CCC
+
+--------------------------------------------------------------------------------
+-254 pt/round: TEAM 5(P3) "Winning Strategy"
+-243 pt/round: team8(P6) "APavlov"
+Cbbcbcccccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+C      BBBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbb
+bbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: TEAM 5(P3) "Winning Strategy"
+-246 pt/round: T9(P7) "ok"
+cBbcCbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+BcbBCbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-247 pt/round: TEAM 5(P3) "Winning Strategy"
+-247 pt/round: E10(P8) "Beating your code"
+cCbBcBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+BCbcBcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-65 pt/round: TEAM 5(P3) "Winning Strategy"
+-75 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+CCCBbBcCBbCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcC
+CCCcbcBCcbCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBC
+
+BcCBcCBcCBcCBcCBcCBcCBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+cBCcBCcBCcBCcBCcBCcBCcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-231 pt/round: TEAM 5(P3) "Winning Strategy"
+-258 pt/round: Team 12(P10) "BOONK GANG"
+bbbcCcBbbbbbbbbBbbbbbbBbbbbbbbbbbBbbbbbbbbbbbbbbbbbbbbbbbbbBbbbbbbbbbBbbbbbBbbbb
+bbbBCBcbbbbbbbbcbbbbbbcbbbbbbbbbbcbbbbbbbbbbbbbbbbbbbbbbbbbcbbbbbbbbbcbbbbbcbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-129 pt/round: TEAM 5(P3) "Winning Strategy"
+-218 pt/round: team13(P11) "win"
+cccBccbbBBbbBBBbcCBbbbbbbBbBbBBbCBCCccCbbBbbBbBBbCBcCbcbBBBBCCCccCbbBbBBBCCCcCcC
+B BcBBbbccbbcccbBCcbbbbbbcbcbccbCcCCBBCbbcbbcbccbCcBCbBbccccCCCBBCbbcbcccCCCBCBC
+
+BBccCBbBBCCcccBbBBbCBCccCBbB
+ccBBCcbccCCBBBcbccbCcCBBCcbc
+
+--------------------------------------------------------------------------------
+-134 pt/round: TEAM 5(P3) "Winning Strategy"
+-212 pt/round: team 14(P12) "Counter and Guess Random"
+BcCCBbccbbbbbbBBbBbcbbbBbbbBBBbccBBBBCcCccBbbbbBBBBcCCCCCccCbBBBCcCccBBBBCccCBbb
+cBCCcbBBbbbbbbccbcbBbbbcbbbcccbBBccccCBCBBcbbbbccccBCCCCCBBCbcccCBCBBccccCBBCcbb
+
+BbBbbBbbBBBBcCCCCcccbBbBBBCCCccCBbbbbBbbBBBbCCCcCcC
+cbcbbcbbccccBCCCCBBBbcbcccCCCBBCcbbbbcbbcccbCCCBCBC
+
+--------------------------------------------------------------------------------
+-129 pt/round: TEAM 5(P3) "Winning Strategy"
+-138 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+CBcCBbCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
+CcBCcbCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
+
+cCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
+BCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
+
+--------------------------------------------------------------------------------
+-254 pt/round: TEAM 5(P3) "Winning Strategy"
+-242 pt/round: T16(P14) "Collude Then Betray"
+Cbcbccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CbBbBBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team TEAM 6
+--------------------------------------------------------------------------------
+-236 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-236 pt/round: Team 1(P0) "follow the leader"
+CCCCCC                                                                          
+CCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+                           
+ccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-243 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-243 pt/round: team3(P1) "Conditions"
+CCCCCC                                                                          
+CCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+                                                                                
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+                              
+cccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-247 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-240 pt/round: Team 4(P2) "Mr.Mime"
+cCCcCC                                                                          
+BCCBCCc                                                                         
+
+                                                                              
+               bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-239 pt/round: TEAM 5(P3) "Winning Strategy"
+cCcCCc                                                                          
+BCBCCBcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+                                                                            
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-250 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-241 pt/round: team 7(P5) "Hopscotch"
+cccCCC                                                                          
+BBBCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+                                                                                
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+                     
+ccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-248 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-248 pt/round: team8(P6) "APavlov"
+Cccccc                                                                          
+C      bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+                                            
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-241 pt/round: T9(P7) "ok"
+cCcCcC                                                                          
+BCBCBCbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+                                                                                
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+                        
+bbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-246 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-234 pt/round: E10(P8) "Beating your code"
+CcCCcC                                                                          
+CBCCBCbccccbbccbcbbbbcbbcbcbccbbcccccbbccccbbbbcccccbcbccbbcbbbcbcbccccbbbcccccb
+
+                         
+ccbbcccbcbbcbcbccbcbbccbb
+
+--------------------------------------------------------------------------------
+-243 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-243 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+CCCCCC                                                                          
+CCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+                                                                                
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+                                     
+ccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-255 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-241 pt/round: Team 12(P10) "BOONK GANG"
+ccCccc                                                                          
+BBCB Bb  ccc c c  c   c       ccc   c cc c c   c      c      c      c   ccc  cc 
+
+                                                                                
+  ccc   c         c c  cc  cc c     cc  c c   ccccc   c ccc       cc   c ccc  cc
+
+                     
+c ccc    c   cc c    
+
+--------------------------------------------------------------------------------
+-254 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-242 pt/round: team13(P11) "win"
+cccccC                                                                          
+B BBBCbcbbcbbcbbcbbbcbbbbbbcccbbbcccbcbcbcbbbbbccbbcbcccccccbbbbcbccbcccbbcccbbc
+
+                                                                                
+bbbcbcccbcbbccbbcbccbbbbbcbbbcbbcbccbbbbbbbcbcbbbbcbbcccccccccbbbbcbcccccccbcbcc
+
+                                  
+ccccbcbbccbbcccbcccbbbcccccbccbcbc
+
+--------------------------------------------------------------------------------
+-246 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-235 pt/round: team 14(P12) "Counter and Guess Random"
+cCCCcC                                                                          
+BCCCBCbbcccccbbccbccbcccbbbbccbcbbbbbcbbbcbbbbbcccccbcbbbccbcbcbbbcbccbcbbccbbcc
+
+                             
+bbccbbcbcccbbcbcbbccbbccbbcbb
+
+--------------------------------------------------------------------------------
+-242 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-242 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+CCCCCC                                                                          
+CCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+                                                                                
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+          
+cccccccccc
+
+--------------------------------------------------------------------------------
+-257 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+-237 pt/round: T16(P14) "Collude Then Betray"
+Cccccc                                                                          
+CBBBBBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+                                                                       
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team team 7
+--------------------------------------------------------------------------------
+-9 pt/round: team 7(P5) "Hopscotch"
+-5 pt/round: Team 1(P0) "follow the leader"
+BbbccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+cbbBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCC
+CCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-5 pt/round: team 7(P5) "Hopscotch"
+-5 pt/round: team3(P1) "Conditions"
+BbbcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+cbbBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-198 pt/round: team 7(P5) "Hopscotch"
+33 pt/round: Team 4(P2) "Mr.Mime"
+bbbcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+CCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+--------------------------------------------------------------------------------
+-7 pt/round: team 7(P5) "Hopscotch"
+-7 pt/round: TEAM 5(P3) "Winning Strategy"
+BBbcCCcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+ccbBCCBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCC
+CCC
+
+--------------------------------------------------------------------------------
+-241 pt/round: team 7(P5) "Hopscotch"
+-250 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+BBBCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccCCC                                                                          
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+                                                                                
+
+ccccccccccccccccccccc
+                     
+
+--------------------------------------------------------------------------------
+-487 pt/round: team 7(P5) "Hopscotch"
+82 pt/round: team8(P6) "APavlov"
+Bbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+--------------------------------------------------------------------------------
+-252 pt/round: team 7(P5) "Hopscotch"
+44 pt/round: T9(P7) "ok"
+bbbcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCc
+bbbBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+
+CcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCc
+CBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+
+--------------------------------------------------------------------------------
+-199 pt/round: team 7(P5) "Hopscotch"
+28 pt/round: E10(P8) "Beating your code"
+BbBcCccCcCCccCCcccCccCCCcCCCCCCccCCCcCccccCcccCcCCCCCCcCCCCcCCcCCCccCCCCcCcCCCCc
+cbcBCBBCBCCBBCCBBBCBBCCCBCCCCCCBBCCCBCBBBBCBBBCBCCCCCCBCCCCBCCBCCCBBCCCCBCBCCCCB
+
+ccCCCCCcCcCCCccCCcCccCcCcCCcCcC
+BBCCCCCBCBCCCBBCCBCBBCBCBCCBCBC
+
+--------------------------------------------------------------------------------
+-4 pt/round: team 7(P5) "Hopscotch"
+-8 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+BbBcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+cbcBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-207 pt/round: team 7(P5) "Hopscotch"
+28 pt/round: Team 12(P10) "BOONK GANG"
+bbbccCcCCcCCCcCcCcCccCCCCcCCCCcCCcccccCCCCCCccCcccCCccccCccCcccCCCCcCCccccCcCcCc
+bbbBBCBCCBCCCBCBCBCBBCCCCBCCCCBCCBBBBBCCCCCCBBCBBBCCBB BCBBCBBBCCCCBCCBBBBCBCBCB
+
+CCCCCCCcccCCcCCccccCcCCCCCCCcCcCcCcCccCCCcCcccCcCCCCCccCCCcCCCCcCCcCcCCcCCcCcCCC
+CCCCCCCBBBCC CCBBBBCBCCCCCCCBCBC CBCB CCCBCBBBCBCCCCCBBCCCBCCCCBCCBCBCCBCCBCBCCC
+
+--------------------------------------------------------------------------------
+-250 pt/round: team 7(P5) "Hopscotch"
+-250 pt/round: team13(P11) "win"
+bbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+b                                                                               
+
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+                                                         
+
+--------------------------------------------------------------------------------
+-249 pt/round: team 7(P5) "Hopscotch"
+44 pt/round: team 14(P12) "Counter and Guess Random"
+bBbCCcCcccccCcCCccccccCcCCCCccCCCcccccCcccCCCcCcCCccccCcCCcCCcCCCCCcCccCCcCcccCc
+bcbCCBCBBBBBCBCCBBBBBBCBCCCCBBCCCBBBBBCBBBCCCBCBCCBBBBCBCCBCCBCCCCCBCBBCCBCBBBCB
+
+cCCCcccCcccCCCccCcCcCCCCccCCcCcCCcCCCcCCCCCCCcCCCccCcccCcCccccCCcCcccCCCcCCCccCc
+BCCCBBBCBBBCCCBBCBCBCCCCBBCCBCBCCBCCCBCCCCCCCBCCCBBCBBBCBCBBBBCCBCBBBCCCBCCCBBCB
+
+ccCCCcccCcCccCCccCCcCCcCCCcCccccc
+BBCCCBBBCBCBBCCBBCCBCCBCCCBCBBBBB
+
+--------------------------------------------------------------------------------
+-3 pt/round: team 7(P5) "Hopscotch"
+-6 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+BbBcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+cbcBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-494 pt/round: team 7(P5) "Hopscotch"
+91 pt/round: T16(P14) "Collude Then Betray"
+Bbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cbbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team team8
+--------------------------------------------------------------------------------
+-247 pt/round: team8(P6) "APavlov"
+-250 pt/round: Team 1(P0) "follow the leader"
+C      Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Ccccccccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-247 pt/round: team8(P6) "APavlov"
+-250 pt/round: team3(P1) "Conditions"
+C      Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Ccccccccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-253 pt/round: team8(P6) "APavlov"
+-247 pt/round: Team 4(P2) "Mr.Mime"
+c      bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bc      bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-243 pt/round: team8(P6) "APavlov"
+-254 pt/round: TEAM 5(P3) "Winning Strategy"
+C      BBBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Cbbcbcccccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbb
+bbbb
+
+--------------------------------------------------------------------------------
+-248 pt/round: team8(P6) "APavlov"
+-248 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+C      bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Cccccc                                                                          
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                                            
+
+--------------------------------------------------------------------------------
+82 pt/round: team8(P6) "APavlov"
+-487 pt/round: team 7(P5) "Hopscotch"
+c      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+Bbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-252 pt/round: team8(P6) "APavlov"
+-249 pt/round: T9(P7) "ok"
+c      bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: team8(P6) "APavlov"
+-250 pt/round: E10(P8) "Beating your code"
+c      Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bcbcbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbb
+bbbb
+
+--------------------------------------------------------------------------------
+-22 pt/round: team8(P6) "APavlov"
+-411 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+C      BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+Ccccccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+
+bBbBbBbBbBbBbBbBbBbBbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+bcbcbcbcbcbcbcbcbcbcbcccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-214 pt/round: team8(P6) "APavlov"
+-275 pt/round: Team 12(P10) "BOONK GANG"
+c      BbbbbbbBbbbbbbbbbbbbbbbbbbbbbbbbBbbBbbBbbbbBBBbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bc ccc cbbbbbbcbbbbbbbbbbbbbbbbbbbbbbbbcbbcbbcbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbBbbbbbbbbbbbBbbbbBbbbbbbbbbbbbBbbBbbbbbbBbBbbBbbbbbbbbbbbbbbbbbBbbBbbbbbbbb
+bbbbbcbbbbbbbbbbbcbbbbcbbbbbbbbbbbbcbbcbbbbbbcbcbbcbbbbbbbbbbbbbbbbbcbbcbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbBbbbBbb
+bbbbbbbbbbbbbbbbbbbcbbbcbb
+
+--------------------------------------------------------------------------------
+-69 pt/round: team8(P6) "APavlov"
+-379 pt/round: team13(P11) "win"
+c      BbbbbbBBBBbbBBbbBBbBBBbbbBBbbbBbBbBBbBbBbbbBBBbbbBbBbbbBBbBBbbBBbBbBbbBBB
+B bcbcccbbbbbccccbbccbbccbcccbbbccbbbcbcbccbcbcbbbcccbbbcbcbbbccbccbbccbcbcbbccc
+
+BBBBBbBbbBBBbBbbbbbBBBBBBbbBBBBBBBBB
+cccccbcbbcccbcbbbbbccccccbbccccccccc
+
+--------------------------------------------------------------------------------
+-77 pt/round: team8(P6) "APavlov"
+-373 pt/round: team 14(P12) "Counter and Guess Random"
+c      BBBBBBbBBbBbBBBBBbbbBbBbbBBbbBBBBBbBBbBBBBbBBbBbBBBBbBBBbBbBBbbbbBbBbbbbB
+Bbccbcbccccccbccbcbcccccbbbcbcbbccbbcccccbccbccccbccbcbccccbcccbcbccbbbbcbcbbbbc
+
+BBBbbbBBbbBbbBBbbbBbBBbbBbbbBBbbbBBBbbBBBbBbBbBBbbbBbBbBBbBbbbbbbbbb
+cccbbbccbbcbbccbbbcbccbbcbbbccbbbcccbbcccbcbcbccbbbcbcbccbcbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-82 pt/round: team8(P6) "APavlov"
+-367 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+C      BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+Ccccccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+
+bBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+
+--------------------------------------------------------------------------------
+-249 pt/round: team8(P6) "APavlov"
+-249 pt/round: T16(P14) "Collude Then Betray"
+C      bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team T9
+--------------------------------------------------------------------------------
+-250 pt/round: T9(P7) "ok"
+-250 pt/round: Team 1(P0) "follow the leader"
+Bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-200 pt/round: T9(P7) "ok"
+-200 pt/round: team3(P1) "Conditions"
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+
+BcBcBcBcBcBcBcBcBcBcBcBcBcBc
+cBcBcBcBcBcBcBcBcBcBcBcBcBcB
+
+--------------------------------------------------------------------------------
+-250 pt/round: T9(P7) "ok"
+-250 pt/round: Team 4(P2) "Mr.Mime"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-246 pt/round: T9(P7) "ok"
+-250 pt/round: TEAM 5(P3) "Winning Strategy"
+BcbBCbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cBbcCbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-241 pt/round: T9(P7) "ok"
+-250 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+BCBCBCbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cCcCcC                                                                          
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                                                                                
+
+bbbbbbbbbbbbbbbbbbbbbbbb
+                        
+
+--------------------------------------------------------------------------------
+44 pt/round: T9(P7) "ok"
+-252 pt/round: team 7(P5) "Hopscotch"
+bbbBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+bbbcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCc
+
+CBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCB
+CcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCcCc
+
+--------------------------------------------------------------------------------
+-249 pt/round: T9(P7) "ok"
+-252 pt/round: team8(P6) "APavlov"
+Bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+c      bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: T9(P7) "ok"
+-250 pt/round: E10(P8) "Beating your code"
+bBcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bcBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-198 pt/round: T9(P7) "ok"
+-203 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+
+BcBcBcBcBcBcBcBcBcBcBcB
+cBcBcBcBcBcBcBcBcBcBcBc
+
+--------------------------------------------------------------------------------
+-217 pt/round: T9(P7) "ok"
+-233 pt/round: Team 12(P10) "BOONK GANG"
+bbbbBcbbBcBcBCBcBCBcBcbbbbBcbBcBcBcBcbbbbBcBcbbBcbbbbbbbbbbbbbbbbbBcbbBcbbbbbbBC
+bbbbcBbbcBcBcCcBcCcBcBbbbbcBbcBcBcBcB bbbcBcBbbcBbbbbbbbbbbbbbbbbbcBbbcBbbbbbbcC
+
+bbbbbBcBcbbbBcBcbbbbBcBCBcbBcBcBcbbbbbbbbBcbbbbbbbbbbbbbbbbbBcbbbbbbbbbbbbbbBcbb
+bbbbbcBcBbbbcBcBbbbbcBcCcBbcBcBcBbbbbbbbbcBbbbbbbbbbbbbbbbbbcBbbbbbbbbbbbbbbcBbb
+
+bbbbBcbBcbbBcBcbbbBCbbbbb
+bbbbcBbcB bcBcBbbbcCbbbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: T9(P7) "ok"
+-250 pt/round: team13(P11) "win"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+b                                                                               
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                                                   
+
+--------------------------------------------------------------------------------
+-139 pt/round: T9(P7) "ok"
+-232 pt/round: team 14(P12) "Counter and Guess Random"
+bBCBCBCbbBcbbBCBcbBcBCbbbbbbBcBcBcbBCbBcBcbbbBCbBcBcBCBCBCbBCBcBcbBCBCbbBCbbBcbB
+bcCcCcCbbcBbbcCcBbcBcCbbbbbbcBcBcBbcCbcBcBbbbcCbcBcBcCcCcCbcCcBcBbcCcCbbcCbbcBbc
+
+cBcBCbBCbBCbBcBCBcbbbBcBcbbBcbbbBCbbBcBcBCBcbbBcbbBcbBcBCBCbBCbbbbbBcBCBCBcBcbBC
+BcBcCbcCbcCbcBcCcBbbbcBcBbbcBbbbcCbbcBcBcCcBbbcBbbcBbcBcCcCbcCbbbbbcBcCcCcBcBbcC
+
+bBcBcBcbBcbBCbb
+bcBcBcBbcBbcCbb
+
+--------------------------------------------------------------------------------
+-200 pt/round: T9(P7) "ok"
+-200 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+
+BcBcBcBcBcBcBcBcBcBcBcBc
+cBcBcBcBcBcBcBcBcBcBcBcB
+
+--------------------------------------------------------------------------------
+-250 pt/round: T9(P7) "ok"
+-250 pt/round: T16(P14) "Collude Then Betray"
+Bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team E10
+--------------------------------------------------------------------------------
+-250 pt/round: E10(P8) "Beating your code"
+-250 pt/round: Team 1(P0) "follow the leader"
+Bbbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-215 pt/round: E10(P8) "Beating your code"
+-218 pt/round: team3(P1) "Conditions"
+CBbbcBcBbcBbbbcBbbcBcBbbcBcBcBbbcBcBbbcBcBcBbbcBcBbbbbbbcBcBbcBcBbcBcBcBbcBcBcBb
+CcbbBcBcbBcbbbBcbbBcBcbbBcBcBcbbBcBcbbBcBcBcbbBcBcbbbbbbBcBcbBcBcbBcBcBcbBcBcBcb
+
+bbbcBbcBbbbcBbbcBcBbbcBbbcBbcBcBcBbcBcBcBbcBbcBbcBbbcBcBbbbbcBcBbcBcBbbbbcBcBbcB
+bbbBcbBcbbbBcbbBcBcbbBcbbBcbBcBcBcbBcBcBcbBcbBcbBcbbBcBcbbbbBcBcbBcBcbbbbBcBcbBc
+
+bcBcBbcBcBbbcBbcBcBbcBcBbbcBcBbbbbcBcB
+bBcBcbBcBcbbBcbBcBcbBcBcbbBcBcbbbbBcBc
+
+--------------------------------------------------------------------------------
+-263 pt/round: E10(P8) "Beating your code"
+-150 pt/round: Team 4(P2) "Mr.Mime"
+cCCbbbcBbbcBbbbbbbbcBbcCCBbbbbbbcCBbbbcCBbbcBbcCBbcBbbbbbbbcBbcBcCCBcBbbcCCBcBbb
+BCCbbbBcbbBcbbbbbbbBcbBCCcbbbbbbBCcbbbBCcbbBcbBCcbBcbbbbbbbBcbBcBCCcBcbbBCCcBcbb
+
+cCCCBcCBbcCBbcBcbcbccbbcbbcbbccbbcbbcccbbbcbcbbcbbccbbbcbcbbbcbbbcbbbcbbccbbccbc
+BCCCcBCcbBCcbBcBbBbBBbbBbbBbbBBbbBbbBBBbbbBbBbbBbbBBbbbBbBbbbBbbbBbbbBbbBBbbBBbB
+
+bbbcbbcbbcc
+bbbBbbBbbBB
+
+--------------------------------------------------------------------------------
+-247 pt/round: E10(P8) "Beating your code"
+-247 pt/round: TEAM 5(P3) "Winning Strategy"
+BCbcBcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cCbBcBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-234 pt/round: E10(P8) "Beating your code"
+-246 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+CBCCBCbccccbbccbcbbbbcbbcbcbccbbcccccbbccccbbbbcccccbcbccbbcbbbcbcbccccbbbcccccb
+CcCCcC                                                                          
+
+ccbbcccbcbbcbcbccbcbbccbb
+                         
+
+--------------------------------------------------------------------------------
+28 pt/round: E10(P8) "Beating your code"
+-199 pt/round: team 7(P5) "Hopscotch"
+cbcBCBBCBCCBBCCBBBCBBCCCBCCCCCCBBCCCBCBBBBCBBBCBCCCCCCBCCCCBCCBCCCBBCCCCBCBCCCCB
+BbBcCccCcCCccCCcccCccCCCcCCCCCCccCCCcCccccCcccCcCCCCCCcCCCCcCCcCCCccCCCCcCcCCCCc
+
+BBCCCCCBCBCCCBBCCBCBBCBCBCCBCBC
+ccCCCCCcCcCCCccCCcCccCcCcCCcCcC
+
+--------------------------------------------------------------------------------
+-250 pt/round: E10(P8) "Beating your code"
+-250 pt/round: team8(P6) "APavlov"
+Bcbcbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+c      Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbb
+bbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: E10(P8) "Beating your code"
+-250 pt/round: T9(P7) "ok"
+bcBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bBcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-30 pt/round: E10(P8) "Beating your code"
+-191 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+CCBcBbCCBcCBcCCBcCBcCCBcBbBbCBbBcCBcBbCCBcCBbBcCCCCCBbCCCBcCBcBcBbCCCBcCBcCCBcCB
+CCcBcbCCcBCcBCCcBCcBCCcBcbcbCcbcBCcBcbCCcBCcbcBCCCCCcbCCCcBCcBcBcbCCCcBCcBCCcBCc
+
+cBbCCCCBcCBcBbBcBbCCBbCCBCCCCBBBCCCBBBCCBBBBCCCCCBBCCCBCBBBBCBBBCBCCBCCBBBCBCCCB
+BcbCCCCcBCcBcbcBcbCCcbCCcCCCCcccCCCcccCCccccCCCCCccCCCcCccccCcccCcCCcCCcccCcCCCc
+
+BCCBCBCCCCBBCCCCBCBCCBCCCBCBBCBCCC
+cCCcCcCCCCccCCCCcCcCCcCCCcCccCcCCC
+
+--------------------------------------------------------------------------------
+-229 pt/round: E10(P8) "Beating your code"
+-152 pt/round: Team 12(P10) "BOONK GANG"
+ccbbcCCBbbcCcCBbcBcCbbbcCcCcBbcbcbbBcBbbcbbCBccBbbcbcBbbbccBbccBBBbcbbbbbbbcCBcC
+BBbbBCCcbbBC CcbBcBC bbBCBCBcbB BbbcBcbbBbbCcBBcbbBbBcbbbBBcbBBcccbBbbbbbbbBCcBC
+
+CcBcBBbcCbcBcCBccBbCBcccCbCCBbbbbcCBccCbbbcBcBbcCbcBbbBccbbCbbbccCBbccCCbcBcBbbb
+CBcBccbBCbBcBCcBBcbCcBBBCbCCcbbbbBCcBBCbbbBcBcbBCbBcbbcBBbbCbbbBBCcbBBCCbBcBcbbb
+
+cbbccbcbBBbccbbbcbcCcBBcCcBCbbcBb
+BbbBBbBbccbBBbbbBbBCBccBCBcCbbBcb
+
+--------------------------------------------------------------------------------
+-250 pt/round: E10(P8) "Beating your code"
+-250 pt/round: team13(P11) "win"
+bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+b                                                                               
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                                                                                
+
+bbbbbbbbbb
+          
+
+--------------------------------------------------------------------------------
+-158 pt/round: E10(P8) "Beating your code"
+-186 pt/round: team 14(P12) "Counter and Guess Random"
+ccCCbbCbcCCBBbbbcBCbbbCBBCCcbBcbBbbCBccBCbCCbCcbbbBbcbbBcbBcbbbbBBCbccbbbbbBcBBB
+BBCCbbCbBCCccbbbBcCbbbCccCCBbcBbcbbCcBBcCbCCbCBbbbcbBbbcBbcBbbbbccCbBBbbbbbcBccc
+
+BbCBcCCbCCbCbbcCCBcBBbCBcCcB
+cbCcBCCbCCbCbbBCCcBccbCcBCBc
+
+--------------------------------------------------------------------------------
+-75 pt/round: E10(P8) "Beating your code"
+-160 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+CCBcBbCCBbBbCBcBbCBbCCCCCBbCCCCBcBbCCCCBbBcCCBbCBcCBbCBcCCBbCCCCBcCCBcCCCCBbBcBb
+CCcBcbCCcbcbCcBcbCcbCCCCCcbCCCCcBcbCCCCcbcBCCcbCcBCcbCcBCCcbCCCCcBCCcBCCCCcbcBcb
+
+CCBcCCBcCBcCCBbCCBcCCBcCCCBcBbBcCCCCCBbCBbBbCBc
+CCcBCCcBCcBCCcbCCcBCCcBCCCcBcbcBCCCCCcbCcbcbCcB
+
+--------------------------------------------------------------------------------
+-356 pt/round: E10(P8) "Beating your code"
+-97 pt/round: T16(P14) "Collude Then Betray"
+Cccccbbbcbbccbbbcbbcbbcbccbcbbbbcbbbcbbcbcbbcccbbbbcbbbcbcbbcbcbbcbbbbbccbbccbbb
+CBBBBbbbBbbBBbbbBbbBbbBbBBbBbbbbBbbbBbbBbBbbBBBbbbbBbbbBbBbbBbBbbBbbbbbBBbbBBbbb
+
+bbcbbcccccbbcbcbcbbcccccbbbbccccbbcbcc
+bbBbbBBBBBbbBbBbBbbBBBBBbbbbBBBBbbBbBB
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team team11
+--------------------------------------------------------------------------------
+0 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+0 pt/round: Team 1(P0) "follow the leader"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+0 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+0 pt/round: team3(P1) "Conditions"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-351 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-52 pt/round: Team 4(P2) "Mr.Mime"
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+
+cBcBcBcBcBcBcBcbcbcbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BcBcBcBcBcBcBcBbBbBbBbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+ccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+--------------------------------------------------------------------------------
+-75 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-65 pt/round: TEAM 5(P3) "Winning Strategy"
+CCCcbcBCcbCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBC
+CCCBbBcCBbCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcC
+
+cBCcBCcBCcBCcBCcBCcBCcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BcCBcCBcCBcCBcCBcCBcCBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-243 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-243 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+CCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+CCCCCC                                                                          
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+                                                                                
+
+ccccccccccccccccccccccccccccccccccccc
+                                     
+
+--------------------------------------------------------------------------------
+-8 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-4 pt/round: team 7(P5) "Hopscotch"
+cbcBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BbBcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-411 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-22 pt/round: team8(P6) "APavlov"
+Ccccccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+C      BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+
+bcbcbcbcbcbcbcbcbcbcbcccccccccccccccccccccccccccccccccccccccccccccccccccc
+bBbBbBbBbBbBbBbBbBbBbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+--------------------------------------------------------------------------------
+-203 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-198 pt/round: T9(P7) "ok"
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+
+cBcBcBcBcBcBcBcBcBcBcBc
+BcBcBcBcBcBcBcBcBcBcBcB
+
+--------------------------------------------------------------------------------
+-191 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-30 pt/round: E10(P8) "Beating your code"
+CCcBcbCCcBCcBCCcBCcBCCcBcbcbCcbcBCcBcbCCcBCcbcBCCCCCcbCCCcBCcBcBcbCCCcBCcBCCcBCc
+CCBcBbCCBcCBcCCBcCBcCCBcBbBbCBbBcCBcBbCCBcCBbBcCCCCCBbCCCBcCBcBcBbCCCBcCBcCCBcCB
+
+BcbCCCCcBCcBcbcBcbCCcbCCcCCCCcccCCCcccCCccccCCCCCccCCCcCccccCcccCcCCcCCcccCcCCCc
+cBbCCCCBcCBcBbBcBbCCBbCCBCCCCBBBCCCBBBCCBBBBCCCCCBBCCCBCBBBBCBBBCBCCBCCBBBCBCCCB
+
+cCCcCcCCCCccCCCCcCcCCcCCCcCccCcCCC
+BCCBCBCCCCBBCCCCBCBCCBCCCBCBBCBCCC
+
+--------------------------------------------------------------------------------
+-220 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-62 pt/round: Team 12(P10) "BOONK GANG"
+cBCCCCCCcBcBcBCcBcBcbcBcbcbcBcBcBcbcbcbCCcbcbcBcBcBcBcBcBcbcbcBcBcbcbcbcbcbcBcBC
+BcCCCCCCBcBcBcCBcBcBbBcBbBbBcBcBcBbBbBbCCBbBbBcBcBcBcBcBcBbBbBcBcBbB BbBbBbBcBcC
+
+CcBCCCcBcBcbcBcBcbcBcBcCCCcCccCcCCCcCCccCCCCcccCCCCCCCCcCccCCCCCCCcCCccccCcCccCc
+CBcCCCBcBcBbBcBcBbBcBcBCCCBCBBCBCCCBCCBBCCCCBBBCCCCCCCCBCBBCCCCCCCBCCBBBBCBCBBCB
+
+CcccCCCccCC
+CBBBCCCBBCC
+
+--------------------------------------------------------------------------------
+-246 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-19 pt/round: team13(P11) "win"
+cbCCcBcbCcBCcBCCcBcbCCcbcbcbcbCCcBCCCCCCCCcBCCCcbCCCcbcbCcbCcbcbcbcbcbCcBCcbcbcb
+B CCBcBbCBcCBcCCBcBbCCBbBbBbBbCCBcCCCCCCCCBcCCCBbCCCBbBbCBbCBbBbBbBbBbCBcCBbBbBb
+
+CCcbCcbcBCcBcBCcBcBCcBcccccCcCccCcccCccCCCccccccCCcccCccCCcccCCccCcCCCCCCCCcccCC
+CCBbCBbBcCBcBcCBcBcCBcBBBBBCBCBBCBBBCBBCCCBBBBBBCCBBBCBBCCBBBCCBBCBCCCCCCCCBBBCC
+
+CcccccCccccCCcCcCcCcCccCc
+CBBBBBCBBBBCCBCBCBCBCBBCB
+
+--------------------------------------------------------------------------------
+-213 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-34 pt/round: team 14(P12) "Counter and Guess Random"
+cBCcbcbCcBCCcBCCcbcBCCCcbCcBcbCCCCCcbCcbCCcbCcbCCcBcBcBcBcbcbcBCcbcBCCCCCcbcbCcB
+BcCBbBbCBcCCBcCCBbBcCCCBbCBcBbCCCCCBbCBbCCBbCBbCCBcBcBcBcBbBbBcCBbBcCCCCCBbBbCBc
+
+cBcbcBCCCcbcBcBcBcBCcbcCCCCCCCcCCCcCccCCcCcCccCcCccccCCcCccCccCCCccCCCCcCCcCCCcc
+BcBbBcCCCBbBcBcBcBcCBbBCCCCCCCBCCCBCBBCCBCBCBBCBCBBBBCCBCBBCBBCCCBBCCCCBCCBCCCBB
+
+CccCccccCCcCcccCcCCcC
+CBBCBBBBCCBCBBBCBCCBC
+
+--------------------------------------------------------------------------------
+0 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+0 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-424 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+-3 pt/round: T16(P14) "Collude Then Betray"
+Ccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+CBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+
+bcbcbcbcbcbcbcbcbcbcbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+bBbBbBbBbBbBbBbBbBbBbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+ccccccccccc
+BBBBBBBBBBB
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team Team 12
+--------------------------------------------------------------------------------
+-270 pt/round: Team 12(P10) "BOONK GANG"
+-212 pt/round: Team 1(P0) "follow the leader"
+BbbbbbbbbbbbbbbbbbbbbbbbbbbccCBcbbbccBcbbbbbbbbcbbbbbbbbbbbbbcbbbbbbbbbbbbbbbbbc
+cbbbbbbbbbbbbbbbbbbbbbbbbbbBBCcBbbbBBcBbbbbbbbbBbbbbbbbbbbbbbBbbbbbbbbbbbbbbbbbB
+
+bbcbbbbbbcbbbcbbbbcbbbbbbbbccBbbbbbbbcbbbbccBcbbbbbbbcbbbbbbbbbbbbbbbbbbbbbbbcbb
+bbBbbbbbbBbbbBbbbbBbbbbbbbbBBcbbbbbbbBbbbbBBcBbbbbbbbBbbbbbbbbbbbbbbbbbbbbbbbBbb
+
+bbbb
+bbbb
+
+--------------------------------------------------------------------------------
+-222 pt/round: Team 12(P10) "BOONK GANG"
+-222 pt/round: team3(P1) "Conditions"
+BbbcBcBbbbbbbbcBbbbcBcBcBcBcBcBbbbbbbbbcBcBbbbbbbbbcBcBbbbbbcBcBcB bcBbbbbbbbcBb
+cbbBcBcbbbbbbbBcbbbBcBcBcBcBcBcbbbbbbbbBcBcbbbbbbbbBcBcbbbbbBcBcBcbbBcbbbbbbbBcb
+
+bbbcBbcBbbbbcBbbcBbcBbbbbbbbbbbbbcBbbbcBcBbbcBcCCBcBcBbbbbcBbbcBcBcBcC
+bbbBcbBcbbbbBcbbBcbBcbbbbbbbbbbbbBcbbbBcBcbbBcBCCcBcBcbbbbBcbbBcBcBcBC
+
+--------------------------------------------------------------------------------
+-248 pt/round: Team 12(P10) "BOONK GANG"
+-218 pt/round: Team 4(P2) "Mr.Mime"
+bbbbbcBcBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcCCCBcBcBcBbbbbbb
+bbbbbBcBcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbBCCCcBcBcBcbbbbbb
+
+bbbbbbcCCBcBcBcbbbbbbbcbbbbcbbbbbbbbbbcbbbbbbbbbbbbbcbbbbcbbc
+bbbbbbBCCcBcBcBbbbbbbbBbbbbBbbbbbbbbbbBbbbbbbbbbbbbbBbbbbBbbB
+
+--------------------------------------------------------------------------------
+-258 pt/round: Team 12(P10) "BOONK GANG"
+-231 pt/round: TEAM 5(P3) "Winning Strategy"
+bbbBCBcbbbbbbbbcbbbbbbcbbbbbbbbbbcbbbbbbbbbbbbbbbbbbbbbbbbbcbbbbbbbbbcbbbbbcbbbb
+bbbcCcBbbbbbbbbBbbbbbbBbbbbbbbbbbBbbbbbbbbbbbbbbbbbbbbbbbbbBbbbbbbbbbBbbbbbBbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-241 pt/round: Team 12(P10) "BOONK GANG"
+-255 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+BBCB Bb  ccc c c  c   c       ccc   c cc c c   c      c      c      c   ccc  cc 
+ccCccc                                                                          
+
+  ccc   c         c c  cc  cc c     cc  c c   ccccc   c ccc       cc   c ccc  cc
+                                                                                
+
+c ccc    c   cc c    
+                     
+
+--------------------------------------------------------------------------------
+28 pt/round: Team 12(P10) "BOONK GANG"
+-207 pt/round: team 7(P5) "Hopscotch"
+bbbBBCBCCBCCCBCBCBCBBCCCCBCCCCBCCBBBBBCCCCCCBBCBBBCCBB BCBBCBBBCCCCBCCBBBBCBCBCB
+bbbccCcCCcCCCcCcCcCccCCCCcCCCCcCCcccccCCCCCCccCcccCCccccCccCcccCCCCcCCccccCcCcCc
+
+CCCCCCCBBBCC CCBBBBCBCCCCCCCBCBC CBCB CCCBCBBBCBCCCCCBBCCCBCCCCBCCBCBCCBCCBCBCCC
+CCCCCCCcccCCcCCccccCcCCCCCCCcCcCcCcCccCCCcCcccCcCCCCCccCCCcCCCCcCCcCcCCcCCcCcCCC
+
+--------------------------------------------------------------------------------
+-275 pt/round: Team 12(P10) "BOONK GANG"
+-214 pt/round: team8(P6) "APavlov"
+Bc ccc cbbbbbbcbbbbbbbbbbbbbbbbbbbbbbbbcbbcbbcbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbb
+c      BbbbbbbBbbbbbbbbbbbbbbbbbbbbbbbbBbbBbbBbbbbBBBbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbcbbbbbbbbbbbcbbbbcbbbbbbbbbbbbcbbcbbbbbbcbcbbcbbbbbbbbbbbbbbbbbcbbcbbbbbbbb
+bbbbbBbbbbbbbbbbbBbbbbBbbbbbbbbbbbbBbbBbbbbbbBbBbbBbbbbbbbbbbbbbbbbbBbbBbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbcbbbcbb
+bbbbbbbbbbbbbbbbbbbBbbbBbb
+
+--------------------------------------------------------------------------------
+-233 pt/round: Team 12(P10) "BOONK GANG"
+-217 pt/round: T9(P7) "ok"
+bbbbcBbbcBcBcCcBcCcBcBbbbbcBbcBcBcBcB bbbcBcBbbcBbbbbbbbbbbbbbbbbbcBbbcBbbbbbbcC
+bbbbBcbbBcBcBCBcBCBcBcbbbbBcbBcBcBcBcbbbbBcBcbbBcbbbbbbbbbbbbbbbbbBcbbBcbbbbbbBC
+
+bbbbbcBcBbbbcBcBbbbbcBcCcBbcBcBcBbbbbbbbbcBbbbbbbbbbbbbbbbbbcBbbbbbbbbbbbbbbcBbb
+bbbbbBcBcbbbBcBcbbbbBcBCBcbBcBcBcbbbbbbbbBcbbbbbbbbbbbbbbbbbBcbbbbbbbbbbbbbbBcbb
+
+bbbbcBbcB bcBcBbbbcCbbbbb
+bbbbBcbBcbbBcBcbbbBCbbbbb
+
+--------------------------------------------------------------------------------
+-152 pt/round: Team 12(P10) "BOONK GANG"
+-229 pt/round: E10(P8) "Beating your code"
+BBbbBCCcbbBC CcbBcBC bbBCBCBcbB BbbcBcbbBbbCcBBcbbBbBcbbbBBcbBBcccbBbbbbbbbBCcBC
+ccbbcCCBbbcCcCBbcBcCbbbcCcCcBbcbcbbBcBbbcbbCBccBbbcbcBbbbccBbccBBBbcbbbbbbbcCBcC
+
+CBcBccbBCbBcBCcBBcbCcBBBCbCCcbbbbBCcBBCbbbBcBcbBCbBcbbcBBbbCbbbBBCcbBBCCbBcBcbbb
+CcBcBBbcCbcBcCBccBbCBcccCbCCBbbbbcCBccCbbbcBcBbcCbcBbbBccbbCbbbccCBbccCCbcBcBbbb
+
+BbbBBbBbccbBBbbbBbBCBccBCBcCbbBcb
+cbbccbcbBBbccbbbcbcCcBBcCcBCbbcBb
+
+--------------------------------------------------------------------------------
+-62 pt/round: Team 12(P10) "BOONK GANG"
+-220 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+BcCCCCCCBcBcBcCBcBcBbBcBbBbBcBcBcBbBbBbCCBbBbBcBcBcBcBcBcBbBbBcBcBbB BbBbBbBcBcC
+cBCCCCCCcBcBcBCcBcBcbcBcbcbcBcBcBcbcbcbCCcbcbcBcBcBcBcBcBcbcbcBcBcbcbcbcbcbcBcBC
+
+CBcCCCBcBcBbBcBcBbBcBcBCCCBCBBCBCCCBCCBBCCCCBBBCCCCCCCCBCBBCCCCCCCBCCBBBBCBCBBCB
+CcBCCCcBcBcbcBcBcbcBcBcCCCcCccCcCCCcCCccCCCCcccCCCCCCCCcCccCCCCCCCcCCccccCcCccCc
+
+CBBBCCCBBCC
+CcccCCCccCC
+
+--------------------------------------------------------------------------------
+-256 pt/round: Team 12(P10) "BOONK GANG"
+-218 pt/round: team13(P11) "win"
+bbcc   bbbbcccBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccBbcBcBBcBcBCBbbcBCbbcbbbcCcbbbb
+b     bbbbbB BcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbBBcbBcBccBcBcCcbbBcCbbBbbbBCBbbbb
+
+bbbbbbbbbbbbcbbbbbbbbbbbbbcbbbbbbbbbbbbbbbbbbbbbbbccbbcbbbbbcbbbccBbbbbbbcbbbbbb
+bbbbbbbbbbbbBbbbbbbbbbbbbbBbbbbbbbbbbbbbbbbbbbbbbbBBbbBbbbbbBbbbBBcbbbbbbBbbbbbb
+
+bbbbbbbbbbbcBbb
+bbbbbbbbbbbBcbb
+
+--------------------------------------------------------------------------------
+-122 pt/round: Team 12(P10) "BOONK GANG"
+-224 pt/round: team 14(P12) "Counter and Guess Random"
+BcBbBbbBbbBCCCcbBBBbCBBcBBCCBcbbCbbBCcBcBcbCCBCcbbBC BcbBCcBBbbCCBBCcBBCbbbBBcbb
+cBcbcbbcbbcCCCBbcccbCccBccCCcBbbCbbcCBcBcBbCCcCBbbcCccBbcCBccbbCCccCBccCbbbccBbb
+
+bCbBbBBCcbBbBcbBBcBB bBCbBbbBBCCbcBCCCcBBBcBBCCcbBcCbBcbBCbBcBCbbBBbbBbBCCcCccBC
+bCbcbccCBbcbcBbccBccbbcCbcbbccCCbBcCCCBcccBccCCBbcBCbcBbcCbcBcCbbccbbcbcCCBCBBcC
+
+cCbBCCB cBcbbCBcBBCcbBcbbcbb
+BCbcCCccBcBbbCcBccCBbcBbbBbb
+
+--------------------------------------------------------------------------------
+-138 pt/round: Team 12(P10) "BOONK GANG"
+-238 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+BbCCCBcBcBbBcBbBcCCBcBbBbBbBbCBbBcCCCBcBcBcBcBcCBbBcBcBcBbBcBcBcBcBbB BcBcBcBcBc
+cbCCCcBcBcbcBcbcBCCcBcbcbcbcbCcbcBCCCcBcBcBcBcBCcbcBcBcBcbcBcBcBcBcbcbcBcBcBcBcB
+
+BcCBcCCCBcBcBbBbBcB BbBbBbBcBcBcBbBcBbBcBcBbBcBbBcBcBcBcBcCBbBcCCBbBbBbBcBcBcBcB
+cBCcBCCCcBcBcbcbcBcbcbcbcbcBcBcBcbcBcbcBcBcbcBcbcBcBcBcBcBCcbcBCCcbcbcbcBcBcBcBc
+
+bBcBcBcB
+bcBcBcBc
+
+--------------------------------------------------------------------------------
+-286 pt/round: Team 12(P10) "BOONK GANG"
+-199 pt/round: T16(P14) "Collude Then Betray"
+Bcbbbcbbbbbbbccbbbbbbbbbbbbcbbbcbcbbbbbbbbbbbbbbbbbccbbbbbbbbbcbbbcbcbbbbbcbcbbb
+cBbbbBbbbbbbbBBbbbbbbbbbbbbBbbbBbBbbbbbbbbbbbbbbbbbBBbbbbbbbbbBbbbBbBbbbbbBbBbbb
+
+bbbbcbbbbbbbcbbbbbcbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbb
+bbbbBbbbbbbbBbbbbbBbbbbbbBBBbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team team13
+--------------------------------------------------------------------------------
+-276 pt/round: team13(P11) "win"
+-123 pt/round: Team 1(P0) "follow the leader"
+B cCBccCCCBcbcbccBcbccBbbccCBbbcbbcbbbccBbbcbcbccBcbbbbccBcbccCCCCBcbbcbbbcbbbbc
+cbBCcBBCCCcBbBbBBcBbBBcbbBBCcbbBbbBbbbBBcbbBbBbBBcBbbbbBBcBbBBCCCCcBbbBbbbBbbbbB
+
+cCCBbbccCBcbccBbcbccBbcbcbbbbbccBbcbccCCBcbccBbcbcbbbbbcbbbbccBbccBcbbbbbbbccBcc
+BCCcbbBBCcBbBBcbBbBBcbBbBbbbbbBBcbBbBBCCcBbBBcbBbBbbbbbBbbbbBBcbBBcBbbbbbbbBBcBB
+
+CBbbbcbccCCBccCCBcbcbcbbccCBcbccBbcb
+CcbbbBbBBCCcBBCCcBbBbBbbBBCcBbBBcbBb
+
+--------------------------------------------------------------------------------
+-169 pt/round: team13(P11) "win"
+-169 pt/round: team3(P1) "Conditions"
+B bbbcBcBcBbbbbbbbbbbcBbbbcCCCCCBbbcBcCBbcCCCBcBbcBbbbcBbcCBbcBbcBbcBcCBcBcCBbbc
+cbbbbBcBcBcbbbbbbbbbbBcbbbBCCCCCcbbBcBCcbBCCCcBcbBcbbbBcbBCcbBcbBcbBcBCcBcBCcbbB
+
+BbbbcCBcBcCBcCBcBbcBcCCCCCBcCCCCBcCCC
+cbbbBCcBcBCcBCcBcbBcBCCCCCcBCCCCcBCCC
+
+--------------------------------------------------------------------------------
+-250 pt/round: team13(P11) "win"
+-250 pt/round: Team 4(P2) "Mr.Mime"
+b   bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bb   bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-218 pt/round: team13(P11) "win"
+-129 pt/round: TEAM 5(P3) "Winning Strategy"
+B BcBBbbccbbcccbBCcbbbbbbcbcbccbCcCCBBCbbcbbcbccbCcBCbBbccccCCCBBCbbcbcccCCCBCBC
+cccBccbbBBbbBBBbcCBbbbbbbBbBbBBbCBCCccCbbBbbBbBBbCBcCbcbBBBBCCCccCbbBbBBBCCCcCcC
+
+ccBBCcbccCCBBBcbccbCcCBBCcbc
+BBccCBbBBCCcccBbBBbCBCccCBbB
+
+--------------------------------------------------------------------------------
+-242 pt/round: team13(P11) "win"
+-254 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+B BBBCbcbbcbbcbbcbbbcbbbbbbcccbbbcccbcbcbcbbbbbccbbcbcccccccbbbbcbccbcccbbcccbbc
+cccccC                                                                          
+
+bbbcbcccbcbbccbbcbccbbbbbcbbbcbbcbccbbbbbbbcbcbbbbcbbcccccccccbbbbcbcccccccbcbcc
+                                                                                
+
+ccccbcbbccbbcccbcccbbbcccccbccbcbc
+                                  
+
+--------------------------------------------------------------------------------
+-250 pt/round: team13(P11) "win"
+-250 pt/round: team 7(P5) "Hopscotch"
+b                                                                               
+bbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+                                                         
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-379 pt/round: team13(P11) "win"
+-69 pt/round: team8(P6) "APavlov"
+B bcbcccbbbbbccccbbccbbccbcccbbbccbbbcbcbccbcbcbbbcccbbbcbcbbbccbccbbccbcbcbbccc
+c      BbbbbbBBBBbbBBbbBBbBBBbbbBBbbbBbBbBBbBbBbbbBBBbbbBbBbbbBBbBBbbBBbBbBbbBBB
+
+cccccbcbbcccbcbbbbbccccccbbccccccccc
+BBBBBbBbbBBBbBbbbbbBBBBBBbbBBBBBBBBB
+
+--------------------------------------------------------------------------------
+-250 pt/round: team13(P11) "win"
+-250 pt/round: T9(P7) "ok"
+b                                                                               
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+                                                   
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: team13(P11) "win"
+-250 pt/round: E10(P8) "Beating your code"
+b                                                                               
+bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+                                                                                
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+          
+bbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-19 pt/round: team13(P11) "win"
+-246 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+B CCBcBbCBcCBcCCBcBbCCBbBbBbBbCCBcCCCCCCCCBcCCCBbCCCBbBbCBbCBbBbBbBbBbCBcCBbBbBb
+cbCCcBcbCcBCcBCCcBcbCCcbcbcbcbCCcBCCCCCCCCcBCCCcbCCCcbcbCcbCcbcbcbcbcbCcBCcbcbcb
+
+CCBbCBbBcCBcBcCBcBcCBcBBBBBCBCBBCBBBCBBCCCBBBBBBCCBBBCBBCCBBBCCBBCBCCCCCCCCBBBCC
+CCcbCcbcBCcBcBCcBcBCcBcccccCcCccCcccCccCCCccccccCCcccCccCCcccCCccCcCCCCCCCCcccCC
+
+CBBBBBCBBBBCCBCBCBCBCBBCB
+CcccccCccccCCcCcCcCcCccCc
+
+--------------------------------------------------------------------------------
+-218 pt/round: team13(P11) "win"
+-256 pt/round: Team 12(P10) "BOONK GANG"
+b     bbbbbB BcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbBBcbBcBccBcBcCcbbBcCbbBbbbBCBbbbb
+bbcc   bbbbcccBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccBbcBcBBcBcBCBbbcBCbbcbbbcCcbbbb
+
+bbbbbbbbbbbbBbbbbbbbbbbbbbBbbbbbbbbbbbbbbbbbbbbbbbBBbbBbbbbbBbbbBBcbbbbbbBbbbbbb
+bbbbbbbbbbbbcbbbbbbbbbbbbbcbbbbbbbbbbbbbbbbbbbbbbbccbbcbbbbbcbbbccBbbbbbbcbbbbbb
+
+bbbbbbbbbbbBcbb
+bbbbbbbbbbbcBbb
+
+--------------------------------------------------------------------------------
+-141 pt/round: team13(P11) "win"
+-179 pt/round: team 14(P12) "Counter and Guess Random"
+B CCCCBbCCbbBBbBcbBbbCcCBcBCcBCBbbbCCBBcBBBBCCCBccBbbbBcbbBCcccCcBBcbCccBbcBBCCB
+cbCCCCcbCCbbccbcBbcbbCBCcBcCBcCcbbbCCccBccccCCCcBBcbbbcBbbcCBBBCBccBbCBBcbBccCCc
+
+CCCcCCBbcBCcbBbcbCCbcBbBbcCbccb
+CCCBCCcbBcCBbcbBbCCbBcbcbBCbBBb
+
+--------------------------------------------------------------------------------
+-94 pt/round: team13(P11) "win"
+-193 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+B BcCCBcBbBbBcBbBcBcCBcCCCCCBbCCBcBbBcBcCBbBcBcBcBbBcCCCCBbBcCBbBbCCCCBbCCCBcCBb
+cbcBCCcBcbcbcBcbcBcBCcBCCCCCcbCCcBcbcBcBCcbcBcBcBcbcBCCCCcbcBCcbcbCCCCcbCCCcBCcb
+
+BbCCBcBcBcBbBbCCCCCBcCBbBcBbBbCBcCCBcBcCCBbCBbBcCCCCBbBcCCCBcBbCBcCBbCCBcBbBbBbB
+cbCCcBcBcBcbcbCCCCCcBCcbcBcbcbCcBCCcBcBCCcbCcbcBCCCCcbcBCCCcBcbCcBCcbCCcBcbcbcbc
+
+bCCBbCBcCCCCCBcBcBcCBbCBcCCBbCCBbBbCBcC
+bCCcbCcBCCCCCcBcBcBCcbCcBCCcbCCcbcbCcBC
+
+--------------------------------------------------------------------------------
+-378 pt/round: team13(P11) "win"
+-70 pt/round: T16(P14) "Collude Then Betray"
+B bbbbbcbccbbccbbbbccbcbccbbcccbcccccbcbccbcccccbbcbbbcccccccccccccbcbbbcccccccb
+cbbbbbbBbBBbbBBbbbbBBbBbBBbbBBBbBBBBBbBbBBbBBBBBbbBbbbBBBBBBBBBBBBBbBbbbBBBBBBBb
+
+bcccbbcbcbbcbcbbbccbbccccbbcbbcbbbccbccbbbbbcbcbbbbbbbbcbcbccbccbc
+bBBBbbBbBbbBbBbbbBBbbBBBBbbBbbBbbbBBbBBbbbbbBbBbbbbbbbbBbBbBBbBBbB
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team team 14
+--------------------------------------------------------------------------------
+-266 pt/round: team 14(P12) "Counter and Guess Random"
+-119 pt/round: Team 1(P0) "follow the leader"
+BbccBbbccBcbbbcbccCCBcbccCBccCBbbbbbbcbbbbbbccCBcbbcbbccBccCCCCCBcbbbbcbbcbbbccB
+cbBBcbbBBcBbbbBbBBCCcBbBBCcBBCcbbbbbbBbbbbbbBBCcBbbBbbBBcBBCCCCCcBbbbbBbbBbbbBBc
+
+cbcbbbcbcbbbccCBbccCCCBbccCBcbccCBcbbcbbbcbcbbcbcbccBcbbccBcbbccCBbbccCCCCB
+BbBbbbBbBbbbBBCcbBBCCCcbBBCcBbBBCcBbbBbbbBbBbbBbBbBBcBbbBBcBbbBBCcbbBBCCCCc
+
+--------------------------------------------------------------------------------
+-175 pt/round: team 14(P12) "Counter and Guess Random"
+-180 pt/round: team3(P1) "Conditions"
+BbcBbbcCCBbbcCBcCCBcBcBcBcBcCBbcCCCBcBcBcBbcBcBbcBcBbcCBcBcCBcCBcBbbcBcBcCBbbbcC
+cbBcbbBCCcbbBCcBCCcBcBcBcBcBCcbBCCCcBcBcBcbBcBcbBcBcbBCcBcBCcBCcBcbbBcBcBCcbbbBC
+
+BcBcCBbbbbcCBcCBcBcBcBbbcCCCCCBcCBbbcBbcCBbbbbcBcBcBbcBbbcBcBcB
+cBcBCcbbbbBCcBCcBcBcBcbbBCCCCCcBCcbbBcbBCcbbbbBcBcBcbBcbbBcBcBc
+
+--------------------------------------------------------------------------------
+-260 pt/round: team 14(P12) "Counter and Guess Random"
+-137 pt/round: Team 4(P2) "Mr.Mime"
+cBbbcCCCCBbbbbbcCBbbcBcCBcCCCBbcBcCBbbbcCBcBcCCBcBbcBbcCBbbbbbbbcCCBbbcBbcBbcBbc
+BcbbBCCCCcbbbbbBCcbbBcBCcBCCCcbBcBCcbbbBCcBcBCCcBcbBcbBCcbbbbbbbBCCcbbBcbBcbBcbB
+
+CBcBcCBbcCBcCBbbcbbccbcccbcbbcccbccbccbbbbbcccbbcccbcbcbbbbbcbbbccbbccbbcbbcbbcb
+CcBcBCcbBCcBCcbbBbbBBbBBBbBbbBBBbBBbBBbbbbbBBBbbBBBbBbBbbbbbBbbbBBbbBBbbBbbBbbBb
+
+bcbbbcbccbcbcbb
+bBbbbBbBBbBbBbb
+
+--------------------------------------------------------------------------------
+-212 pt/round: team 14(P12) "Counter and Guess Random"
+-134 pt/round: TEAM 5(P3) "Winning Strategy"
+cBCCcbBBbbbbbbccbcbBbbbcbbbcccbBBccccCBCBBcbbbbccccBCCCCCBBCbcccCBCBBccccCBBCcbb
+BcCCBbccbbbbbbBBbBbcbbbBbbbBBBbccBBBBCcCccBbbbbBBBBcCCCCCccCbBBBCcCccBBBBCccCBbb
+
+cbcbbcbbccccBCCCCBBBbcbcccCCCBBCcbbbbcbbcccbCCCBCBC
+BbBbbBbbBBBBcCCCCcccbBbBBBCCCccCBbbbbBbbBBBbCCCcCcC
+
+--------------------------------------------------------------------------------
+-235 pt/round: team 14(P12) "Counter and Guess Random"
+-246 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+BCCCBCbbcccccbbccbccbcccbbbbccbcbbbbbcbbbcbbbbbcccccbcbbbccbcbcbbbcbccbcbbccbbcc
+cCCCcC                                                                          
+
+bbccbbcbcccbbcbcbbccbbccbbcbb
+                             
+
+--------------------------------------------------------------------------------
+44 pt/round: team 14(P12) "Counter and Guess Random"
+-249 pt/round: team 7(P5) "Hopscotch"
+bcbCCBCBBBBBCBCCBBBBBBCBCCCCBBCCCBBBBBCBBBCCCBCBCCBBBBCBCCBCCBCCCCCBCBBCCBCBBBCB
+bBbCCcCcccccCcCCccccccCcCCCCccCCCcccccCcccCCCcCcCCccccCcCCcCCcCCCCCcCccCCcCcccCc
+
+BCCCBBBCBBBCCCBBCBCBCCCCBBCCBCBCCBCCCBCCCCCCCBCCCBBCBBBCBCBBBBCCBCBBBCCCBCCCBBCB
+cCCCcccCcccCCCccCcCcCCCCccCCcCcCCcCCCcCCCCCCCcCCCccCcccCcCccccCCcCcccCCCcCCCccCc
+
+BBCCCBBBCBCBBCCBBCCBCCBCCCBCBBBBB
+ccCCCcccCcCccCCccCCcCCcCCCcCccccc
+
+--------------------------------------------------------------------------------
+-373 pt/round: team 14(P12) "Counter and Guess Random"
+-77 pt/round: team8(P6) "APavlov"
+Bbccbcbccccccbccbcbcccccbbbcbcbbccbbcccccbccbccccbccbcbccccbcccbcbccbbbbcbcbbbbc
+c      BBBBBBbBBbBbBBBBBbbbBbBbbBBbbBBBBBbBBbBBBBbBBbBbBBBBbBBBbBbBBbbbbBbBbbbbB
+
+cccbbbccbbcbbccbbbcbccbbcbbbccbbbcccbbcccbcbcbccbbbcbcbccbcbbbbbbbbb
+BBBbbbBBbbBbbBBbbbBbBBbbBbbbBBbbbBBBbbBBBbBbBbBBbbbBbBbBBbBbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-232 pt/round: team 14(P12) "Counter and Guess Random"
+-139 pt/round: T9(P7) "ok"
+bcCcCcCbbcBbbcCcBbcBcCbbbbbbcBcBcBbcCbcBcBbbbcCbcBcBcCcCcCbcCcBcBbcCcCbbcCbbcBbc
+bBCBCBCbbBcbbBCBcbBcBCbbbbbbBcBcBcbBCbBcBcbbbBCbBcBcBCBCBCbBCBcBcbBCBCbbBCbbBcbB
+
+BcBcCbcCbcCbcBcCcBbbbcBcBbbcBbbbcCbbcBcBcCcBbbcBbbcBbcBcCcCbcCbbbbbcBcCcCcBcBbcC
+cBcBCbBCbBCbBcBCBcbbbBcBcbbBcbbbBCbbBcBcBCBcbbBcbbBcbBcBCBCbBCbbbbbBcBCBCBcBcbBC
+
+bcBcBcBbcBbcCbb
+bBcBcBcbBcbBCbb
+
+--------------------------------------------------------------------------------
+-186 pt/round: team 14(P12) "Counter and Guess Random"
+-158 pt/round: E10(P8) "Beating your code"
+BBCCbbCbBCCccbbbBcCbbbCccCCBbcBbcbbCcBBcCbCCbCBbbbcbBbbcBbcBbbbbccCbBBbbbbbcBccc
+ccCCbbCbcCCBBbbbcBCbbbCBBCCcbBcbBbbCBccBCbCCbCcbbbBbcbbBcbBcbbbbBBCbccbbbbbBcBBB
+
+cbCcBCCbCCbCbbBCCcBccbCcBCBc
+BbCBcCCbCCbCbbcCCBcBBbCBcCcB
+
+--------------------------------------------------------------------------------
+-34 pt/round: team 14(P12) "Counter and Guess Random"
+-213 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+BcCBbBbCBcCCBcCCBbBcCCCBbCBcBbCCCCCBbCBbCCBbCBbCCBcBcBcBcBbBbBcCBbBcCCCCCBbBbCBc
+cBCcbcbCcBCCcBCCcbcBCCCcbCcBcbCCCCCcbCcbCCcbCcbCCcBcBcBcBcbcbcBCcbcBCCCCCcbcbCcB
+
+BcBbBcCCCBbBcBcBcBcCBbBCCCCCCCBCCCBCBBCCBCBCBBCBCBBBBCCBCBBCBBCCCBBCCCCBCCBCCCBB
+cBcbcBCCCcbcBcBcBcBCcbcCCCCCCCcCCCcCccCCcCcCccCcCccccCCcCccCccCCCccCCCCcCCcCCCcc
+
+CBBCBBBBCCBCBBBCBCCBC
+CccCccccCCcCcccCcCCcC
+
+--------------------------------------------------------------------------------
+-224 pt/round: team 14(P12) "Counter and Guess Random"
+-122 pt/round: Team 12(P10) "BOONK GANG"
+cBcbcbbcbbcCCCBbcccbCccBccCCcBbbCbbcCBcBcBbCCcCBbbcCccBbcCBccbbCCccCBccCbbbccBbb
+BcBbBbbBbbBCCCcbBBBbCBBcBBCCBcbbCbbBCcBcBcbCCBCcbbBC BcbBCcBBbbCCBBCcBBCbbbBBcbb
+
+bCbcbccCBbcbcBbccBccbbcCbcbbccCCbBcCCCBcccBccCCBbcBCbcBbcCbcBcCbbccbbcbcCCBCBBcC
+bCbBbBBCcbBbBcbBBcBB bBCbBbbBBCCbcBCCCcBBBcBBCCcbBcCbBcbBCbBcBCbbBBbbBbBCCcCccBC
+
+BCbcCCccBcBbbCcBccCBbcBbbBbb
+cCbBCCB cBcbbCBcBBCcbBcbbcbb
+
+--------------------------------------------------------------------------------
+-179 pt/round: team 14(P12) "Counter and Guess Random"
+-141 pt/round: team13(P11) "win"
+cbCCCCcbCCbbccbcBbcbbCBCcBcCBcCcbbbCCccBccccCCCcBBcbbbcBbbcCBBBCBccBbCBBcbBccCCc
+B CCCCBbCCbbBBbBcbBbbCcCBcBCcBCBbbbCCBBcBBBBCCCBccBbbbBcbbBCcccCcBBcbCccBbcBBCCB
+
+CCCBCCcbBcCBbcbBbCCbBcbcbBCbBBb
+CCCcCCBbcBCcbBbcbCCbcBbBbcCbccb
+
+--------------------------------------------------------------------------------
+-74 pt/round: team 14(P12) "Counter and Guess Random"
+-186 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+CCBcCBbBbCCBcBbBbCBbCCBbCBbBbCBbCCCCCBcCBcBcBbCCBbCCCBbCBcBbBbBcBcCCBbBbCCCCBbBc
+CCcBCcbcbCCcBcbcbCcbCCcbCcbcbCcbCCCCCcBCcBcBcbCCcbCCCcbCcBcbcbcBcBCCcbcbCCCCcbcB
+
+BbBcCCCCCCCCCCBbBbBcBbCCCCBcCCCBcCBbBcBbCCC
+cbcBCCCCCCCCCCcbcbcBcbCCCCcBCCCcBCcbcBcbCCC
+
+--------------------------------------------------------------------------------
+-381 pt/round: team 14(P12) "Counter and Guess Random"
+-64 pt/round: T16(P14) "Collude Then Betray"
+Cbcbbbbbcbbbccbbcbbccbcbbbcbbccccccbccbccccccbbbccccbbcbbbcbcbccccbbbcccbcbbbbcb
+CbBbbbbbBbbbBBbbBbbBBbBbbbBbbBBBBBBbBBbBBBBBBbbbBBBBbbBbbbBbBbBBBBbbbBBBbBbbbbBb
+
+bcbcbccccbbbbcbccbccccbccbbbcbbbccbcbbbccccbcbccbccbbbbbccccbbcbbcbcbccccccccbcc
+bBbBbBBBBbbbbBbBBbBBBBbBBbbbBbbbBBbBbbbBBBBbBbBBbBBbbbbbBBBBbbBbbBbBbBBBBBBBBbBB
+
+bcbcbccccb
+bBbBbBBBBb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team MK
+--------------------------------------------------------------------------------
+0 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+0 pt/round: Team 1(P0) "follow the leader"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+0 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+0 pt/round: team3(P1) "Conditions"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-217 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-188 pt/round: Team 4(P2) "Mr.Mime"
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+
+cBcBcBcBcBcBcBcbcbcbcbc
+BcBcBcBcBcBcBcBbBbBbBbB
+
+--------------------------------------------------------------------------------
+-138 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-129 pt/round: TEAM 5(P3) "Winning Strategy"
+CcBCcbCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
+CBcCBbCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
+
+BCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
+cCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
+
+--------------------------------------------------------------------------------
+-242 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-242 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+CCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+CCCCCC                                                                          
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+                                                                                
+
+cccccccccc
+          
+
+--------------------------------------------------------------------------------
+-6 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-3 pt/round: team 7(P5) "Hopscotch"
+cbcBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BbBcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-367 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-82 pt/round: team8(P6) "APavlov"
+Ccccccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+C      BbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+
+bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+bBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+
+--------------------------------------------------------------------------------
+-200 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-200 pt/round: T9(P7) "ok"
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+
+cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
+BcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBc
+
+cBcBcBcBcBcBcBcBcBcBcBcB
+BcBcBcBcBcBcBcBcBcBcBcBc
+
+--------------------------------------------------------------------------------
+-160 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-75 pt/round: E10(P8) "Beating your code"
+CCcBcbCCcbcbCcBcbCcbCCCCCcbCCCCcBcbCCCCcbcBCCcbCcBCcbCcBCCcbCCCCcBCCcBCCCCcbcBcb
+CCBcBbCCBbBbCBcBbCBbCCCCCBbCCCCBcBbCCCCBbBcCCBbCBcCBbCBcCCBbCCCCBcCCBcCCCCBbBcBb
+
+CCcBCCcBCcBCCcbCCcBCCcBCCCcBcbcBCCCCCcbCcbcbCcB
+CCBcCCBcCBcCCBbCCBcCCBcCCCBcBbBcCCCCCBbCBbBbCBc
+
+--------------------------------------------------------------------------------
+0 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+0 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-238 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-138 pt/round: Team 12(P10) "BOONK GANG"
+cbCCCcBcBcbcBcbcBCCcBcbcbcbcbCcbcBCCCcBcBcBcBcBCcbcBcBcBcbcBcBcBcBcbcbcBcBcBcBcB
+BbCCCBcBcBbBcBbBcCCBcBbBbBbBbCBbBcCCCBcBcBcBcBcCBbBcBcBcBbBcBcBcBcBbB BcBcBcBcBc
+
+cBCcBCCCcBcBcbcbcBcbcbcbcbcBcBcBcbcBcbcBcBcbcBcbcBcBcBcBcBCcbcBCCcbcbcbcBcBcBcBc
+BcCBcCCCBcBcBbBbBcB BbBbBbBcBcBcBbBcBbBcBcBbBcBbBcBcBcBcBcCBbBcCCBbBbBbBcBcBcBcB
+
+bcBcBcBc
+bBcBcBcB
+
+--------------------------------------------------------------------------------
+-193 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-94 pt/round: team13(P11) "win"
+cbcBCCcBcbcbcBcbcBcBCcBCCCCCcbCCcBcbcBcBCcbcBcBcBcbcBCCCCcbcBCcbcbCCCCcbCCCcBCcb
+B BcCCBcBbBbBcBbBcBcCBcCCCCCBbCCBcBbBcBcCBbBcBcBcBbBcCCCCBbBcCBbBbCCCCBbCCCBcCBb
+
+cbCCcBcBcBcbcbCCCCCcBCcbcBcbcbCcBCCcBcBCCcbCcbcBCCCCcbcBCCCcBcbCcBCcbCCcBcbcbcbc
+BbCCBcBcBcBbBbCCCCCBcCBbBcBbBbCBcCCBcBcCCBbCBbBcCCCCBbBcCCCBcBbCBcCBbCCBcBbBbBbB
+
+bCCcbCcBCCCCCcBcBcBCcbCcBCCcbCCcbcbCcBC
+bCCBbCBcCCCCCBcBcBcCBbCBcCCBbCCBbBbCBcC
+
+--------------------------------------------------------------------------------
+-186 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-74 pt/round: team 14(P12) "Counter and Guess Random"
+CCcBCcbcbCCcBcbcbCcbCCcbCcbcbCcbCCCCCcBCcBcBcbCCcbCCCcbCcBcbcbcBcBCCcbcbCCCCcbcB
+CCBcCBbBbCCBcBbBbCBbCCBbCBbBbCBbCCCCCBcCBcBcBbCCBbCCCBbCBcBbBbBcBcCCBbBbCCCCBbBc
+
+cbcBCCCCCCCCCCcbcbcBcbCCCCcBCCCcBCcbcBcbCCC
+BbBcCCCCCCCCCCBbBbBcBbCCCCBcCCCBcCBbBcBbCCC
+
+--------------------------------------------------------------------------------
+-374 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+-74 pt/round: T16(P14) "Collude Then Betray"
+Ccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+CBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+
+bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+bBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+
+bcbc
+bBbB
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team T16
+--------------------------------------------------------------------------------
+-245 pt/round: T16(P14) "Collude Then Betray"
+-250 pt/round: Team 1(P0) "follow the leader"
+CBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Ccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-247 pt/round: T16(P14) "Collude Then Betray"
+-250 pt/round: team3(P1) "Conditions"
+CBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Ccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbb
+bbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: T16(P14) "Collude Then Betray"
+-250 pt/round: Team 4(P2) "Mr.Mime"
+cBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-242 pt/round: T16(P14) "Collude Then Betray"
+-254 pt/round: TEAM 5(P3) "Winning Strategy"
+CbBbBBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Cbcbccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-237 pt/round: T16(P14) "Collude Then Betray"
+-257 pt/round: TEAM 6(P4) "Free Points, You Can Trust Us"
+CBBBBBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Cccccc                                                                          
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                                                                       
+
+--------------------------------------------------------------------------------
+91 pt/round: T16(P14) "Collude Then Betray"
+-494 pt/round: team 7(P5) "Hopscotch"
+cbbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+Bbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-249 pt/round: T16(P14) "Collude Then Betray"
+-249 pt/round: team8(P6) "APavlov"
+Cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+C      bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-250 pt/round: T16(P14) "Collude Then Betray"
+-250 pt/round: T9(P7) "ok"
+cBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-97 pt/round: T16(P14) "Collude Then Betray"
+-356 pt/round: E10(P8) "Beating your code"
+CBBBBbbbBbbBBbbbBbbBbbBbBBbBbbbbBbbbBbbBbBbbBBBbbbbBbbbBbBbbBbBbbBbbbbbBBbbBBbbb
+Cccccbbbcbbccbbbcbbcbbcbccbcbbbbcbbbcbbcbcbbcccbbbbcbbbcbcbbcbcbbcbbbbbccbbccbbb
+
+bbBbbBBBBBbbBbBbBbbBBBBBbbbbBBBBbbBbBB
+bbcbbcccccbbcbcbcbbcccccbbbbccccbbcbcc
+
+--------------------------------------------------------------------------------
+-3 pt/round: T16(P14) "Collude Then Betray"
+-424 pt/round: team11(P9) "SneakyBastartd+Crook/BullesyeAce+Armorer"
+CBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+Ccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+
+bBbBbBbBbBbBbBbBbBbBbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+bcbcbcbcbcbcbcbcbcbcbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBB
+ccccccccccc
+
+--------------------------------------------------------------------------------
+-199 pt/round: T16(P14) "Collude Then Betray"
+-286 pt/round: Team 12(P10) "BOONK GANG"
+cBbbbBbbbbbbbBBbbbbbbbbbbbbBbbbBbBbbbbbbbbbbbbbbbbbBBbbbbbbbbbBbbbBbBbbbbbBbBbbb
+Bcbbbcbbbbbbbccbbbbbbbbbbbbcbbbcbcbbbbbbbbbbbbbbbbbccbbbbbbbbbcbbbcbcbbbbbcbcbbb
+
+bbbbBbbbbbbbBbbbbbBbbbbbbBBBbbbbbbbbbbbbbbbbbbbbbbb
+bbbbcbbbbbbbcbbbbbcbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-70 pt/round: T16(P14) "Collude Then Betray"
+-378 pt/round: team13(P11) "win"
+cbbbbbbBbBBbbBBbbbbBBbBbBBbbBBBbBBBBBbBbBBbBBBBBbbBbbbBBBBBBBBBBBBBbBbbbBBBBBBBb
+B bbbbbcbccbbccbbbbccbcbccbbcccbcccccbcbccbcccccbbcbbbcccccccccccccbcbbbcccccccb
+
+bBBBbbBbBbbBbBbbbBBbbBBBBbbBbbBbbbBBbBBbbbbbBbBbbbbbbbbBbBbBBbBBbB
+bcccbbcbcbbcbcbbbccbbccccbbcbbcbbbccbccbbbbbcbcbbbbbbbbcbcbccbccbc
+
+--------------------------------------------------------------------------------
+-64 pt/round: T16(P14) "Collude Then Betray"
+-381 pt/round: team 14(P12) "Counter and Guess Random"
+CbBbbbbbBbbbBBbbBbbBBbBbbbBbbBBBBBBbBBbBBBBBBbbbBBBBbbBbbbBbBbBBBBbbbBBBbBbbbbBb
+Cbcbbbbbcbbbccbbcbbccbcbbbcbbccccccbccbccccccbbbccccbbcbbbcbcbccccbbbcccbcbbbbcb
+
+bBbBbBBBBbbbbBbBBbBBBBbBBbbbBbbbBBbBbbbBBBBbBbBBbBBbbbbbBBBBbbBbbBbBbBBBBBBBBbBB
+bcbcbccccbbbbcbccbccccbccbbbcbbbccbcbbbccccbcbccbccbbbbbccccbbcbbcbcbccccccccbcc
+
+bBbBbBBBBb
+bcbcbccccb
+
+--------------------------------------------------------------------------------
+-74 pt/round: T16(P14) "Collude Then Betray"
+-374 pt/round: MK(P13) "Collude first 25 rounds unless betrayed. Betray 26th round forward."
+CBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+Ccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+
+bBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
+bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc
+
+bBbB
+bcbc
 
 --------------------------------------------------------------------------------

@@ -35,10 +35,10 @@ import os.path
     
 import team1, team3, team4
 import team5, team6, team7, team8, team9
-import team10, team11, team12, team13, team14, team15
+import team10, team11, team12, team13, team14, team15, team16
 
 modules = [team1, team3, team4, team5, team6, team7, team8, team9, team10, 
-team11, team12, team13, team14, team15]
+team11, team12, team13, team14, team15, team16]
 for module in modules:
     reload(module)
     print ('reloaded',module)
@@ -373,5 +373,5 @@ def post_to_file(string, filename='tournament.txt', directory=''):
  
 ### Call main_play() if this file is executed
 if __name__ == '__main__':
-    scores, moves, reports = main_play(modules[0:14])   
+    scores, moves, reports = main_play(modules[0:16])   
     section0, section1, section2, section3 = reports 
